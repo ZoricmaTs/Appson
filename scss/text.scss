@@ -7,6 +7,7 @@ $color_white: white;
 $color_dark-grey: #333333;
 $color_grey: #929292;
 $color_blue: #0f7bff;
+$color_dark-blue: #0063dd;
 
 .text {
     &__h1 {
@@ -16,6 +17,7 @@ $color_blue: #0f7bff;
     }
     &__body {
         font-size: 16px;
+        line-height: 27px;
     }
     &__uppercase {
         text-transform: uppercase;
@@ -32,6 +34,7 @@ $color_blue: #0f7bff;
     &__color_blue {
         color: $color_blue;
     }
+    
 }
 
 

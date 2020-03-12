@@ -6,7 +6,18 @@
     border-radius: 25px;
     border: none;
     &__color_dark-blue {
-        background-color: #0063dd;
+        background-color: $color_dark-blue;
         color: $color_white;
+    }
+    &__color_blue {
+        background-color: $color_blue;
+        color: $color_white;
+        font-weight: 700;
+    }
+    &__color_transparent {
+        background-color: transparent;
+        color: $color_blue;
+        font-weight: 700;
+        border: 2px solid $color_blue; 
     }
 }

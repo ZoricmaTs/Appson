@@ -10,6 +10,7 @@
 }
 .text__body {
   font-size: 16px;
+  line-height: 27px;
 }
 .text__uppercase {
   text-transform: uppercase;
@@ -36,6 +37,17 @@
 .btn__color_dark-blue {
   background-color: #0063dd;
   color: white;
+}
+.btn__color_blue {
+  background-color: #0f7bff;
+  color: white;
+  font-weight: 700;
+}
+.btn__color_transparent {
+  background-color: transparent;
+  color: #0f7bff;
+  font-weight: 700;
+  border: 2px solid #0f7bff;
 }
 
 /*# sourceMappingURL=/button.e58526a6.css.map */

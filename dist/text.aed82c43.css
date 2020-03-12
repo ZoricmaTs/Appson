@@ -10,6 +10,7 @@
 }
 .text__body {
   font-size: 16px;
+  line-height: 27px;
 }
 .text__uppercase {
   text-transform: uppercase;

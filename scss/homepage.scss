@@ -3,7 +3,43 @@
 body {
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
     max-width: 1920px;
+    overflow: auto;
+    background-color: #f5fcfd;
 };
+
+.homepage-background {
+     //
+    height: 1043px;
+    background: url('../image/Shape_1.png');// 
+    background-position: 0 0;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 100% 1043px;
+    //background-size: cover; //?  100% auto
+}
+
+.homepage-text {
+    max-width: 611px;
+    height: 70px;
+    text-align: center;  
+    margin-top: 106px;
+    padding-bottom: 32px;
+    &__heading {
+        margin-bottom: 32px;
+    }
+    &__body {
+        font-weight: 400;
+    }
+
+}
+//805px 524px, 569px 607px, 1121px 607px
+//url('../image/Place_Your_screen.png'), url('../image/Place_screen.png'), url('../image/Place_your_screen (1).png');
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    max-width: 1920px;
+}
 
 .logo {
     height: 100px;
@@ -12,16 +48,15 @@ body {
     background-color: #0f7bff;
     border-radius: 0 0 22px 22px;
     padding-top: 33px;
+    margin-left: 140px;
 }
 
-.homepage {
-
-}
-
-.heading {
+.menu {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    margin-right: 140px;
+    border: 1px solid blue;
 }
 
 .menu-heading {
@@ -30,6 +65,7 @@ body {
     justify-content: space-between;
     min-width: 353px;
     font-weight: 500;
+    margin-top: 44px;
     border: 1px solid red;
     &__item {
         list-style-type: none;
@@ -40,6 +76,9 @@ body {
         &:hover, &:focus {
             color: $color_blue;
         }
+    }
+    &__btn {
+        margin: 25px 0 25px 53px;
     }
 }
 
