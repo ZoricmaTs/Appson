@@ -60,13 +60,16 @@
   width: 165px;
   height: 50px;
   border-radius: 25px;
+  border: none;
 }
 .btn__color_dark-blue {
   background-color: #0063dd;
+  color: white;
 }
 
 body {
   font-family: "Quicksand", "Open Sans", Arial, sans-serif;
+  max-width: 1920px;
 }
 
 .logo {
@@ -78,11 +81,16 @@ body {
   padding-top: 33px;
 }
 
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
 .menu-heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 353px;
+  min-width: 353px;
   font-weight: 500;
   border: 1px solid red;
 }

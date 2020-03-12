@@ -31,9 +31,11 @@
   width: 165px;
   height: 50px;
   border-radius: 25px;
+  border: none;
 }
 .btn__color_dark-blue {
   background-color: #0063dd;
+  color: white;
 }
 
 /*# sourceMappingURL=/button.e58526a6.css.map */

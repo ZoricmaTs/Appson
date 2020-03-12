@@ -2,6 +2,7 @@
 @import "button.scss";
 body {
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+    max-width: 1920px;
 };
 
 .logo {
@@ -17,11 +18,17 @@ body {
 
 }
 
+.heading {
+    display: flex;
+    flex-direction: row;
+
+}
+
 .menu-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 353px;
+    min-width: 353px;
     font-weight: 500;
     border: 1px solid red;
     &__item {
