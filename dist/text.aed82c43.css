@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text__h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.text__body {
+  font-size: 16px;
+}
+.text__uppercase {
+  text-transform: uppercase;
+}
+.text__color_dark-grey {
+  color: #333333;
+}
+.text__color_white {
+  color: white;
+}
+.text__color_grey {
+  color: #929292;
+}
+.text__color_blue {
+  color: #0f7bff;
+}
+
+/*# sourceMappingURL=/text.aed82c43.css.map */

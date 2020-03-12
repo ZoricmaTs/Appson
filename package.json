@@ -1,0 +1,19 @@
+{
+  "name": "smart_w1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/homepage.html",
+    "build": "parcel build src/*.html --out-dir docs --public-url ./ "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3"
+  },
+  "description": ""
+}

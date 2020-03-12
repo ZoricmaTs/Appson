@@ -1,0 +1,38 @@
+@import "text.scss";
+@import "button.scss";
+body {
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+};
+
+.logo {
+    height: 100px;
+    width: 179px;
+    text-align: center;
+    background-color: #0f7bff;
+    border-radius: 0 0 22px 22px;
+    padding-top: 33px;
+}
+
+.homepage {
+
+}
+
+.menu-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 353px;
+    font-weight: 500;
+    border: 1px solid red;
+    &__item {
+        list-style-type: none;
+        border: 1px solid purple;
+    }
+    &__link {
+        text-decoration: none;
+        &:hover, &:focus {
+            color: $color_blue;
+        }
+    }
+}
+
