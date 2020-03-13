@@ -1,0 +1,40 @@
+@import "text.scss";
+
+.feature {
+    width: 360px;
+    height: 290px;
+    background-color: $color_white;
+}
+
+.feature-images {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #dfedff;
+    &__color_blue-greyish {
+        background-color: $color_blue-greyish;
+    }
+    &__color_purple-greyish {
+        background-color: $color_purple-greyish;
+    }
+    &__color_green-greyish {
+        background-color: $color_green-greyish;
+    }
+}
+
+.feature-image {
+    position: absolute;
+    &__analysis {
+        top: 20px;
+        left: 19px;
+    }
+    &__clean-design {
+        top: 17px;
+        left: 18px;
+    }
+    &__messaging {
+        top: 19px;
+        left: 17px;
+    }
+}
