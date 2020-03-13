@@ -1,0 +1,72 @@
+@import "text.scss";
+
+.about-appson {
+    &__container {
+        display: inline-block;
+        width: 1920px;
+        height: 1190px;
+        background-color: $color_white;
+    }
+    &__block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__block:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+    &__img-block {
+        position: relative;
+        width: 603px;
+        height: 610px;
+        margin-right: 96px;
+        margin-left: 106px;
+    }
+    &__img-rect_background {
+        position: absolute;
+        z-index: 2;
+    }
+    &__img-easy-messaging_foreground {
+        position: absolute;
+        z-index: 3;
+        left: 193px;
+        top: 130px;
+    }
+    &__img-keep-in-touch_foreground {
+        position: absolute;
+        z-index: 3;
+        left: 11px;
+        top: 82px;
+    }
+    &__img-easy-messaging_forefront {
+        position: absolute;
+        z-index: 4;
+        left: 371px;
+        top: 162px;
+    }
+    &__img-keep-in-touch_forefront {
+        position: absolute;
+        z-index: 4;
+        left: 189px;
+        top: 114px;
+    }
+
+    &__text-block {
+        max-width: 544px;
+        margin-top: 226px;
+    }
+    &__text_heading {
+        margin-bottom: 33px;
+    }
+    &__text_body {
+        margin-bottom: 38px; 
+    }
+    &__link {
+        text-decoration: none;
+        &__link-arrow {
+            width: 15px;
+            height: 11px;
+        }
+    }
+
+}
