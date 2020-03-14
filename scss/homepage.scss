@@ -3,34 +3,39 @@
 body {
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
     max-width: 1920px;
-    overflow: auto;
-    background-color: #f5fcfd;
 };
 
 .homepage-background {
      //
     height: 1043px;
-    background: url('../image/Shape_1.png');// 
+    background: url('../image/Background.png');// 
     background-position: 0 0;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 100% 1043px;
     //background-size: cover; //?  100% auto
 }
 
+.homepage-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .homepage-text {
     max-width: 611px;
-    height: 70px;
     text-align: center;  
     margin-top: 106px;
-    padding-bottom: 32px;
+    border: 1px solid red;
     &__heading {
         margin-bottom: 32px;
     }
     &__body {
         font-weight: 400;
+        margin-bottom: 37px;
+        border: 1px solid blue;
     }
-
 }
+ 
+
 //805px 524px, 569px 607px, 1121px 607px
 //url('../image/Place_Your_screen.png'), url('../image/Place_screen.png'), url('../image/Place_your_screen (1).png');
 .heading {

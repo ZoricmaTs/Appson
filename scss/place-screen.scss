@@ -1,20 +1,83 @@
 @import "text.scss";
+.homepage-place {
+    display: block;
 
+    border: 1px solid red;
+}
 .homepage-place-left {
     position: relative;
     height: 517px;
     width: 258px;
-    box-shadow: 0 0 62px rgba(142, 142, 142, 0.44);
-    &__img_foreground {
+    &__img-foreground {
         position: absolute;
         top: 0;
         left: 0;
         z-index: 3;
     }
+    &__img-sensors {
+        position: absolute;
+        top: 64px;
+        left: 160px;
+        z-index: 4;
+        height: 14px;
+        width: 52px;
+    }
     &__img {
         position: absolute;
-        top: 11px;
-        left: 14px;
+        top: 64px;
+        left: 66px;
+        z-index: 4;
+    }
+}
+
+.homepage-place-center {
+    position: relative;
+    height: 690px;
+    width: 345px;
+    &__img-foreground {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    &__img-sensors{
+        position: absolute;
+        top: 64px;
+        left: 160px;
+        z-index: 4;
+        height: 14px;
+        width: 52px;
+    }
+    &__img {
+        position: absolute;
+        top: 64px;
+        left: 66px;
+        z-index: 4;
+    }
+}
+
+.homepage-place-right {
+    position: relative;
+    height: 517px;
+    width: 258px;
+    &__img-foreground {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    &__img-sensors{
+        position: absolute;
+        top: 64px;
+        left: 160px;
+        z-index: 4;
+        height: 14px;
+        width: 52px;
+    }
+    &__img {
+        position: absolute;
+        top: 64px;
+        left: 66px;
         z-index: 4;
     }
 }
