@@ -7,11 +7,12 @@
     align-items: center;
     height: 646px;
     background-color: $color_light-blue;
+    text-align: center; 
 }
 
 .work-text-title {
-    width: 732px;
-    text-align: center; 
+    width: 735px; //?TODO
+    
     &__heading {
         padding-top: 130px;
         margin-bottom: 8px;
@@ -19,13 +20,36 @@
         background-image: url('../image/2-layers.png');
         background-size: 108px 75px;
         background-repeat: no-repeat;
-        background-position: center 120px;
+        background-position: center 110px;
     }
-    &__body {
-    
+    &__body {  
         font-weight: 400;
         height: 43px;
         margin-bottom: 47px;
         border: 1px dashed red;   
+    }
+}
+
+.works-block {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.work {
+    width: 300px; //?TODO
+    margin-left: 94px;
+
+    &__image {
+        margin-bottom: 31px;
+    }
+}
+
+.work-text {
+    &__heading {
+        margin-bottom: 29px;  
+    }
+    &__body {
+        margin-bottom: 127px;  
     }
 }
