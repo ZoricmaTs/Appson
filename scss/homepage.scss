@@ -7,42 +7,22 @@ body {
 
 .homepage-background {
      //
+    display: flex;
+    flex-direction: column;
+    justify-content: start; //
     height: 1043px;
     background: url('../image/Background.png');// 
     background-position: 0 0;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-size: 100% 1043px;
     //background-size: cover; //?  100% auto
 }
-
-.homepage-header-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.homepage-text {
-    max-width: 611px;
-    text-align: center;  
-    margin-top: 106px;
-    border: 1px solid red;
-    &__heading {
-        margin-bottom: 32px;
-    }
-    &__body {
-        font-weight: 400;
-        margin-bottom: 37px;
-        border: 1px solid blue;
-    }
-}
  
-
-//805px 524px, 569px 607px, 1121px 607px
-//url('../image/Place_Your_screen.png'), url('../image/Place_screen.png'), url('../image/Place_your_screen (1).png');
 .heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
+    border: 1px solid green;
     max-width: 1920px;
 }
 
@@ -61,7 +41,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-right: 140px;
-    border: 1px solid blue;
 }
 
 .menu-heading {
@@ -71,10 +50,8 @@ body {
     min-width: 353px;
     font-weight: 500;
     margin-top: 44px;
-    border: 1px solid red;
     &__item {
         list-style-type: none;
-        border: 1px solid purple;
     }
     &__link {
         text-decoration: none;
@@ -84,6 +61,36 @@ body {
     }
     &__btn {
         margin: 25px 0 25px 53px;
+    }
+}
+
+.homepage-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-btn-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.homepage-btn {
+    margin-right: 30px;
+}
+
+.homepage-text {
+    max-width: 611px;
+    text-align: center;  
+    margin-top: 106px;
+    &__heading {
+        margin-bottom: 32px;
+    }
+    &__body {
+        font-weight: 400;
+        margin-bottom: 37px;
     }
 }
 
