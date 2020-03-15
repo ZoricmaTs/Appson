@@ -33,13 +33,15 @@
 .works-block {
     display: flex;
     flex-direction: row;
-
+    background-image: url('../image/Line.png');
+    background-repeat: no-repeat;
+    background-size: 685px 1px;
+    background-position: 290px 50px;
 }
 
 .work {
-    width: 300px; //?TODO
+    width: 297px; //?TODO
     margin-left: 94px;
-
     &__image {
         margin-bottom: 31px;
     }

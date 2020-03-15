@@ -21,3 +21,17 @@
         border: 2px solid $color_blue; 
     }
 }
+
+.btn-double {
+    &__left {
+        width: 164px;
+        height: 50px;
+        border: none;
+        border-radius: 25px 0 0 25px;
+    }
+    &__right {
+        width: 164px;
+        height: 50px;
+        border-radius: 0 25px 25px 0;
+    }
+}
