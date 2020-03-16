@@ -1,0 +1,32 @@
+@import "text.scss";
+
+.latest-news {
+
+}
+
+.latest-news-text-title {
+    &__heading {
+        margin-top: 130px;
+        padding-top: 22px;
+        margin-bottom: 8px;
+        padding-bottom: 31px;
+        background-image: url('../image/2-layers.png');
+        background-size: 108px 75px;
+        background-repeat: no-repeat;
+        background-position: center 110px;
+    }
+    &__body {
+        margin-bottom: 47px; 
+        font-weight: 400;
+    }
+}
+
+.posts {
+
+}
+
+.post {
+    &__image {
+        
+    }
+}
