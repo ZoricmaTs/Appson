@@ -4,14 +4,14 @@
 .free-trail {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 752px;
     height: 336px;
     background-color: $color_light-blue;
 }
 
 .free-trail-title {
+    margin-right: 162px;
     &__heading {
         margin-bottom: 24px;
     }
