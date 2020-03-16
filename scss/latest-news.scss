@@ -1,7 +1,10 @@
 @import "text.scss";
 
 .latest-news {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 960px;
 }
 
 .latest-news-text-title {
@@ -26,17 +29,43 @@
 }
 
 .posts {
-
+    display: grid;
+    grid-template-columns: 556px 532px;
+    grid-template-rows: 120px 120px 230px;
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
 }
 
 .post {
+    display: flex;
+    flex-direction: row;
     list-style-type: none; 
+    width: 532px;
+    height: 120px;
     &__image {
-
+        display: block;
+        width: 165px;
+        height: 120px;
+        margin-right: 30px;
+    }
+    &__title {
+        
+    }
+    &__heading {
+        @extend .text__h3;
+        @extend .text__color_dark-grey;    
+        line-height: 28px;  
+        margin-bottom: 25px;
+    }
+    &__body {
+        @extend .text__body;
+        @extend .text__color_grey;  
     }
 }
 
 .post-active {
+    grid-row: 1 / 4;
+    grid-column: 1 / 1;
     list-style-type: none;
     width: 556px;
     height: 530px;

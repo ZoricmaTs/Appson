@@ -1,0 +1,21 @@
+@import "text.scss";
+@import "button.scss";
+
+.free-trail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 752px;
+    height: 336px;
+    background-color: $color_light-blue;
+}
+
+.free-trail-title {
+    &__heading {
+        margin-bottom: 24px;
+    }
+    &__body {
+        font-weight: 400;
+    }
+}
