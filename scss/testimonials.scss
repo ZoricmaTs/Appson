@@ -1,0 +1,35 @@
+@import "text.scss";
+
+.testimonials-block {
+    display: flex;
+    flex-direction: row;
+    height: 608px;
+    background-color: $color_light-blue;
+    &__image {
+        margin-right: 127px;
+    }
+}
+
+.testimonials {
+    &__heading {
+
+    }
+}
+
+.reviews {
+
+}
+
+.review {
+    &__content {
+
+    }
+}
+
+.customer-name {
+
+}
+
+.customer-description {
+
+}
