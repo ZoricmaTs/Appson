@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../scss/testimonials.scss"/>
     <link rel="stylesheet" href="../scss/latest-news.scss"/>
     <link rel="stylesheet" href="../scss/free-trail.scss"/>
+    <link rel="stylesheet" href="../scss/widget.scss"/>
+
 </head>
 <body>
     <section class="homepage-background">
@@ -238,8 +240,8 @@
                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
             </p>
         </div>
-        <ul class="posts">
-            <li class="post-active">
+        <div class="post-block">
+            <div class="post-active">
                 <img class="post-active__image" src="../image/post1.png" alt="post">
                 <h2 class="post-active__heading">The master bedroom suite is phenomenally
                     spacious</h2>
@@ -250,38 +252,40 @@
                 <a class="post-active__link" href="#">Continue Reading
                     <img class="post-active__link-arrow" src="../image/icon.png" alt="Continue Reading">
                 </a>
-            </li>
-            <li class="post">
-                <img class="post__image" src="../image/post2.png" alt="post">
-                <div class="post__title">
-                    <h3 class="post__heading">The master bedroom suite is phenomenally
-                        spacious</h3>
-                    <p class="post__body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-                    </p>
+            </div>        
+            <div class="posts">
+                <div class="post">
+                    <img class="post__image" src="../image/post2.png" alt="post">
+                    <div class="post__title">
+                        <h3 class="post__heading">The master bedroom suite is phenomenally
+                            spacious</h3>
+                        <p class="post__body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                        </p>
+                    </div>
                 </div>
-            </li>
-            <li class="post">
-                <img class="post__image" src="../image/post3.png" alt="post">
-                <div class="post__title">
-                    <h3 class="post__heading">The master bedroom suite is phenomenally
-                        spacious</h3>
-                    <p class="post__body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-                    </p>
+                <div class="post">
+                    <img class="post__image" src="../image/post3.png" alt="post">
+                    <div class="post__title">
+                        <h3 class="post__heading">The master bedroom suite is phenomenally
+                            spacious</h3>
+                        <p class="post__body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                        </p>
+                    </div>
                 </div>
-            </li>
-            <li class="post">
-                <img class="post__image" src="../image/post4.png" alt="post">
-                <div class="post__title">
-                    <h3 class="post__heading">The master bedroom suite is phenomenally
-                        spacious</h3>
-                    <p class="post__body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-                    </p>
+                <div class="post">
+                    <img class="post__image" src="../image/post4.png" alt="post">
+                    <div class="post__title">
+                        <h3 class="post__heading">The master bedroom suite is phenomenally
+                            spacious</h3>
+                        <p class="post__body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                        </p>
+                    </div>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </section>
     <div class="free-trail">
         <div class="free-trail-title">
@@ -292,5 +296,26 @@
             <img class="free-trail__arrow" src="../image/arrow-white.png" alt="Get Started Try 30 Days Free Trial" width="20" height="14">
         </button>
     </div>
+    <section class="widget"> 
+        <h1 class="text__h1 text__color_white">AppSon</h1>
+        <form class="subscribe-form">
+            <div class="input-group">
+               <input type="text" class="subscribe-form__input" name="email" placeholder="Enter Your Email">
+               <span class="input-group__btn">
+                    <button class="btn-input btn__color_blue" type="button">SUBSCRIBE</button>
+               </span>
+            </div>
+          </form>
+  <!--      <div class="form-element__field text-field">
+            <label class="form-element__heading text-field__label">
+                <h3 class="type-text__h3-bold type-text__color_dark-shade100">Text Field</h3> 
+            </label>
+            <input class="form-element__input text-field__input text-field__input_focus type-text__body_normal" type="email" name="input-email" placeholder="This is pretty awesome">
+        </div>-->
+    </section>
+    <footer>
+        
+        
+    </footer>
 </body>
 </html>
