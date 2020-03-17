@@ -3,5 +3,13 @@
 
 .widget {
     background-color: $color_blue;
-    height: 828px;
+    height: 386px;
+    &__title {
+        width: 132px;
+        padding-top: 130px;
+        margin: 0 auto 30px auto;
+    }
+    &__input {
+        margin-bottom: 130px;
+    }
 }
