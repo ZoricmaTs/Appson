@@ -1,11 +1,16 @@
 @import "text.scss";
 
 .footer-dark {
-    height: 336px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 106px;
     background-color: $color_blue;
     border-top: 1px solid white;
     &__text {
-
+        margin-left: 391px;
+        width: 363px;
+        margin-right: 234px;
         font-weight: 400;
     }
     &__menu {
@@ -15,6 +20,7 @@
         list-style-type: none;
         width: 348px;
         font-weight: 400;
+        margin-right: 118px;
     }
     &__menu-item {
 
@@ -25,7 +31,12 @@
         @extend .text__color_white;
     }
     &__social-media {
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 78px;
+        margin-right: 194px;
     }
     &__social-media-item {
 
@@ -34,6 +45,9 @@
 
     }
     &__social-media-image {
-        
+
+    }
+    &__scroll {
+        margin-right: 150px;
     }
 }
