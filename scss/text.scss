@@ -15,29 +15,35 @@ $color_green-greyish: #dfffe3;
 
 .text {
     &__h1 {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         font-size: 36px;
         font-weight: 700;
         //line-height: 24px;
     }
     &__h2 {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         font-size: 32px;
         font-weight: 500;
         //line-height: 36px;
     }
     &__h2_small {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         font-size: 24px;
         font-weight: 500;
     }
     &__h3 {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         font-size: 18px;
         font-weight: 500;
         //line-height: 27px;
     }
     &__body {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         font-size: 16px;
         //line-height: 27px;
     }
     &__body_small {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         font-size: 14px;
     }
     &__uppercase {
