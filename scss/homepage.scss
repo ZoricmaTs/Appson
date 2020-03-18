@@ -6,12 +6,11 @@ body {
 };
 
 .homepage-background {
-     //
     display: flex;
     flex-direction: column;
-    justify-content: start; //
+    justify-content: start; 
     height: 1043px;
-    background: url('../image/Background.png');// 
+    background: url('../image/Background.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 1043px;
@@ -68,6 +67,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.homepage-img__scroll {
+    display: block;
+    position: absolute;
+    bottom: 380px;
+    width: 70px;
+    margin: 0 auto;
+    z-index: 40;
 }
 
 .homepage-btn-title {
@@ -92,5 +101,7 @@ body {
         margin-bottom: 37px;
     }
 }
+
+
 
 

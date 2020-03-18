@@ -2,10 +2,10 @@
 
 .about-appson {
     &__container {
-        display: inline-block;
-        width: 1920px;
+        display: block;     
         height: 1190px;
         background-color: $color_white;
+        margin: 0 auto;
     }
     &__block {
         display: flex;
@@ -23,7 +23,6 @@
     &__text-block {
         max-width: 544px;
         margin-top: 226px;
-        border: 1px dashed red;
     }
     &__text-block:nth-of-type(1) {
         margin-left: 96px;
