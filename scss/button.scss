@@ -1,28 +1,56 @@
 @import "text.scss";
 
 .btn {
+    @extend .text__body;
     width: 165px;
     height: 50px;
     border-radius: 25px;
     border: none;
+    cursor: pointer;
     &__color_dark-blue {
         background-color: $color_dark-blue;
         color: $color_white;
+          &:hover, &:focus, &:active, &:visited {
+          background-color: $color_hover;
+          transition: all ease 0.3s;
+          -webkit-transition: all ease 0.3s;
+          -moz-transition: all ease 0.3s;
+          -o-transition: all ease 0.3s;
+          -ms-transition: all ease 0.3s;
+      }
     }
     &__color_blue {
         background-color: $color_blue;
         color: $color_white;
         font-weight: 700;
+        &:hover, &:focus, &:active, &:visited {
+          background-color: $color_hover;
+          transition: all ease 0.3s;
+          -webkit-transition: all ease 0.3s;
+          -moz-transition: all ease 0.3s;
+          -o-transition: all ease 0.3s;
+          -ms-transition: all ease 0.3s;
+      }
     }
     &__color_transparent {
         background-color: transparent;
         color: $color_blue;
         font-weight: 700;
         border: 2px solid $color_blue; 
+        &:hover, &:focus, &:active, &:visited {
+          color: $color_hover;
+          border: 2px solid $color_hover; 
+          transition: all ease 0.3s;
+          -webkit-transition: all ease 0.3s;
+          -moz-transition: all ease 0.3s;
+          -o-transition: all ease 0.3s;
+          -ms-transition: all ease 0.3s;
+      }
     }
 }
 
 .btn-double {
+  cursor: pointer;
     &__left {
         width: 164px;
         height: 50px;
@@ -44,6 +72,7 @@
     border-radius: 5px;
     background-color: $color_blue;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -57,12 +86,9 @@
       outline: none;
     }
     &__input {
-
         border: none;
         border: 2px solid #ffffff;
         border-radius: 30px 0 0 30px;
-        &:focus {
-        }
     }
     
     .btn-input {
@@ -76,7 +102,7 @@
       border-radius: 0 30px 30px 0;
       text-transform: uppercase;
       position: relative;
-      
+      cursor: pointer;
     /*transition: all ease 0.3s;
       -webkit-transition: all ease 0.3s;
       -moz-transition: all ease 0.3s;

@@ -17,12 +17,6 @@ body {
     //background-size: cover; //?  100% auto
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .homepage-header-title {
     display: flex;
     flex-direction: column;
@@ -60,6 +54,7 @@ body {
     &__body {
         font-weight: 400;
         margin-bottom: 37px;
+        line-height: 27px;
     }
 }
 
