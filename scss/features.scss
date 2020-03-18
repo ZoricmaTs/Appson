@@ -63,4 +63,11 @@
 
 .feature-text {
     text-align: center;
+    &__heading {
+        margin-bottom: 20px;
+    }
+    &__body {
+        font-weight: 400;
+        line-height: 27px;
+    }
 }
