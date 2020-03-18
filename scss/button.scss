@@ -120,12 +120,22 @@
     vertical-align: middle;
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
     height: 56px;
-    width: 388px;
+    width: 358px;
     background-color: transparent;
     color: $color_white;
-    border-right: none;       
+    border-right: none;  
+    padding-left: 30px;
+
   }
-  input[type="email"]::placeholder{   
+  input[type="email"]::placeholder {   
     color: $color_white;
-    padding-left: 30px;       
+         
+  }
+  input[type="email"]::-moz-placeholder { 
+    color: $color_white;
+    
+  }
+  input[type="email"]::-webkit-input-placeholder { 
+    color: $color_white;
+     
   }
