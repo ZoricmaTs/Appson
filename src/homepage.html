@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>homepage</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../scss/homepage.scss"/>
+    <link rel="stylesheet" href="../scss/header.scss"/>
     <link rel="stylesheet" href="../scss/text.scss"/>
     <link rel="stylesheet" href="../scss/button.scss"/>
     <link rel="stylesheet" href="../scss/features.scss"/>
@@ -21,24 +22,24 @@
 <body>
    <section class="homepage-background">
         <header class="heading">
-            <div class="logo">
-                <h1 class="text__h1 text__color_white">
-                    AppSon
-                </h1>
+            <div class="logo logo__color-front_blue">
+                <a class="logo__link-homepage" href="homepage.html">
+                    <h1 class="logo__text_color_white">AppSon</h1>
+                </a>
             </div>
             <nav class="menu">
                 <ul class="menu-heading">
                     <li class="menu-heading__item">
-                        <a class="menu-heading__link text__uppercase text__color_dark-grey" href="#">Home</a>
+                        <a class="menu-heading__link menu-heading__link-active" href="#">Home</a>
                     </li>
                     <li class="menu-heading__item">
-                        <a class="menu-heading__link text__uppercase text__color_dark-grey" href="#">Features</a>
+                        <a class="menu-heading__link" href="#">Features</a>
                     </li>
                     <li class="menu-heading__item">
-                        <a class="menu-heading__link text__uppercase text__color_dark-grey" href="#">Pricing</a>
+                        <a class="menu-heading__link" href="#">Pricing</a>
                     </li>
                     <li class="menu-heading__item">
-                        <a class="menu-heading__link text__uppercase text__color_dark-grey" href="#">Pages</a>
+                        <a class="menu-heading__link" href="#">Pages</a>
                     </li>
                 </ul>
                 <button class="menu-heading__btn btn btn__color_dark-blue text__uppercase" type="button" name="sign-up">SIGN UP</button>

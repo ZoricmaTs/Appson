@@ -2,7 +2,7 @@
 @import "button.scss";
 body {
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
-    max-width: 1920px;
+    //max-width: 1920px;
 };
 
 .homepage-background {
@@ -16,50 +16,11 @@ body {
     background-size: 100% 1043px;
     //background-size: cover; //?  100% auto
 }
- 
-.heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1920px;
-}
-
-.logo {
-    height: 100px;
-    width: 179px;
-    text-align: center;
-    background-color: #0f7bff;
-    border-radius: 0 0 22px 22px;
-    padding-top: 33px;
-    margin-left: 140px;
-}
 
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 140px;
-}
-
-.menu-heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    min-width: 353px;
-    font-weight: 500;
-    margin-top: 44px;
-    &__item {
-        list-style-type: none;
-    }
-    &__link {
-        text-decoration: none;
-        &:hover, &:focus {
-            color: $color_blue;
-        }
-    }
-    &__btn {
-        margin: 25px 0 25px 53px;
-    }
 }
 
 .homepage-header-title {

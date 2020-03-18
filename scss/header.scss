@@ -1,0 +1,71 @@
+@import "text.scss";
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.logo {
+    text-align: center;
+    &__color-front_blue {
+        height: 77px;
+        width: 179px;
+        background-color: $color_blue;
+        border-radius: 0 0 22px 22px;
+        padding-top: 33px;
+    }
+    &__link-homepage {
+        text-decoration: none;
+    }
+    &__text_color_white {
+        @extend .text__h1;
+        @extend .text__color_white;
+    }
+}
+
+.menu-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 353px;
+    font-weight: 500;
+    margin-top: 44px;
+    &__item {
+        list-style-type: none;
+    }
+    &__link {
+        text-decoration: none;
+        @extend .text__uppercase;
+        @extend .text__color_dark-grey;
+        @extend .text__body;
+        &:hover, &:focus, &:active, &:visited {
+            color: $color_blue;
+            transition: all ease 0.3s;
+            -webkit-transition: all ease 0.3s;
+            -moz-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            -ms-transition: all ease 0.3s;
+        }
+    }
+    &__link-active {
+        color: $color_blue; 
+    }
+    
+    &__btn {
+        font-weight: 700;
+        margin: 25px 0 25px 53px;
+        &:hover, &:focus, &:active, &:visited {
+            background-color: $color_blue;
+            transition: all ease 0.3s;
+            -webkit-transition: all ease 0.3s;
+            -moz-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            -ms-transition: all ease 0.3s;
+        }
+    }
+}
+
