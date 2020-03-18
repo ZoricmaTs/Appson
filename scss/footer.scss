@@ -8,13 +8,13 @@
     background-color: $color_blue;
     border-top: 1px solid white;
     &__text {     
-       
+        margin-left: 391px;
         font-weight: 400;
     }
     &__menu {      
         list-style-type: none;      
         font-weight: 400;
-        margin-right: 118px;
+        margin-left: 235px
     }
     &__menu-item {
         display: inline-block;
@@ -27,7 +27,7 @@
     &__social-media {      
         list-style-type: none;
         width: 78px;
-        margin-right: 194px;
+        margin-left: 118px;
     }
     &__social-media-item {
         display: inline-block;
@@ -40,6 +40,6 @@
 
     }
     &__scroll {
-        margin-right: 150px;
+        margin-left: 194px;
     }
 }
