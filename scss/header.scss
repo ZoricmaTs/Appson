@@ -76,3 +76,27 @@
     }
 }
 
+.header-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-top: 1px solid $color_light-grey;
+    background-color: $color_light-blue;
+    &__image {
+        margin-right: 14px;
+    }
+}
+
+.header-title-text {
+    height: 120px;
+    margin-right: 367px;
+    &__heading {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &__body {
+    
+    }
+}
