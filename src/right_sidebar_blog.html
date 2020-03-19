@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/header.scss"/>
+    <link rel="stylesheet" href="../scss/text.scss"/>
+    <link rel="stylesheet" href="../scss/button.scss"/>
     <title>right_sidebar_blog</title>
 </head>
 <body>
-    
+    <header class="heading heading__color-front_light-blue">
+        <div class="logo">
+            <a class="logo__link-homepage" href="homepage.html">
+                <h1 class="logo__text_color_blue">AppSon</h1>
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu-heading">
+                <li class="menu-heading__item">
+                    <a class="menu-heading__link menu-heading__link-active" href="#">Home</a>
+                </li>
+                <li class="menu-heading__item">
+                    <a class="menu-heading__link" href="#">Features</a>
+                </li>
+                <li class="menu-heading__item">
+                    <a class="menu-heading__link" href="#">Pricing</a>
+                </li>
+                <li class="menu-heading__item">
+                    <a class="menu-heading__link" href="#">Pages</a>
+                </li>
+            </ul>
+            <button class="menu-heading__btn btn btn__color_dark-blue text__uppercase" type="button" name="sign-up">SIGN UP</button>
+        </nav>
+    </header>
+    <section class="header-title"> 
+        <div class="header-title-text">
+            <p class="homepage-text__body text__body text__color_grey">Latest Info</p>
+            <h1 class="header-title__heading text__h1 text__color_dark-grey text__uppercase">Our Blog Post</h1>
+            <p class="homepage-text__body text__body text__color_grey">Home - Right Side Bar Blog</p>
+        </div>
+        <img class="homepage-img__device" src="../image/header-image.png" alt="device picture" width="427" height="328">
+    </section>
 </body>
 </html>

@@ -5,8 +5,11 @@
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-    margin-left: 140px;
-    margin-right: 140px;
+    padding-left: 140px;
+    padding-right: 140px;
+    &__color-front_light-blue {
+        background-color: $color_light-blue;
+    }
 }
 
 .logo {
@@ -24,6 +27,11 @@
     &__text_color_white {
         @extend .text__h1;
         @extend .text__color_white;
+    }
+    &__text_color_blue {
+        @extend .text__h1;
+        @extend .text__color_blue;
+        line-height: 100px;
     }
 }
 
@@ -48,7 +56,7 @@
         @extend .text__uppercase;
         @extend .text__color_dark-grey;
         @extend .text__body;
-        &:hover, &:focus, &:active, &:visited {
+        &:hover, &:focus {
             color: $color_hover;
             transition: all ease 0.3s;
             -webkit-transition: all ease 0.3s;
