@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../scss/header.scss"/>
     <link rel="stylesheet" href="../scss/blog-posts.scss"/>
     <link rel="stylesheet" href="../scss/pagination.scss"/>
+    <link rel="stylesheet" href="../scss/recent-post.scss"/>
     <title>right_sidebar_blog</title>
 </head>
 <body>
@@ -170,12 +171,39 @@
     <article class="right-side">
         <section class="search"> 
             <form class="search__input search-form">
-                <div class="input-group">
+                <div class="right-side__search-input input-group">
                    <input type="search" class="search-form__input" name="search" placeholder="Search" multiple><button class="btn-input__search btn__color_blue" type="button">
                         <img class="search__image" src="../image/search.png" alt="search" width="33" height="34">
                    </button>
                 </div>
             </form>
+        </section>
+        <section class="recent-posts">
+            <h2 class="recent-posts__heading text__h2_small text__color_dark-grey">Recent Post</h2>
+            <div class="recent-post">
+                <img class="recent-post__image" src="../image/Recent Post1.png" alt="image recent-post" width="80" height="80">
+                <div class="recent-post__container">
+                    <a class="recent-post__link" href="#">
+                        <h3 class="recent-post__heading text__h3 text__color_dark-grey">The Master bedroom</h3>
+                    </a><p class="recent-post__text text__body text__color_grey">Lorem ipsum dolor sit amet,  icing.</p>
+                </div>
+            </div>
+            <div class="recent-post">
+                <img class="recent-post__image" src="../image/Recent Post2.png" alt="image recent-post" width="80" height="80">
+                <div class="recent-post__container">
+                    <a class="recent-post__link" href="#">
+                        <h3 class="recent-post__heading text__h3 text__color_dark-grey">The Master bedroom</h3>
+                    </a><p class="recent-post__text text__body text__color_grey">Lorem ipsum dolor sit amet,  icing.</p>
+                </div>
+            </div>
+            <div class="recent-post">
+                <img class="recent-post__image" src="../image/Recent Post3.png" alt="image recent-post" width="80" height="80">
+                <div class="recent-post__container">
+                    <a class="recent-post__link" href="#">
+                        <h3 class="recent-post__heading text__h3 text__color_dark-grey">The Master bedroom</h3>
+                    </a><p class="recent-post__text text__body text__color_grey">Lorem ipsum dolor sit amet,  icing.</p>
+                </div>
+            </div>
         </section>
     </article>
 </body>
