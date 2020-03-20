@@ -1,15 +1,6 @@
 
 @font-face {
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: url("../webfonts/font-awesome/fa-regular-400.woff2") format("woff2"),
-         url("../webfonts/font-awesome/fa-regular-400.woff") format("woff"),
-         url("../webfonts/font-awesome/fa-regular-400.ttf") format("truetype");
-}
-@font-face {
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Free solid';
     font-style: normal;
     font-weight: 400;
     font-display: auto;
@@ -17,11 +8,33 @@
          url("../webfonts/font-awesome/fa-solid-900.woff") format("woff"),
          url("../webfonts/font-awesome/fa-solid-900.ttf") format("truetype");
 }
-.fa, .fas, .far, .fal, .fad, .fab {
+@font-face {
+    font-family: 'Font Awesome 5 Free regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("../webfonts/font-awesome/fa-regular-400.woff2") format("woff2"),
+         url("../webfonts/font-awesome/fa-regular-400.woff") format("woff"),
+         url("../webfonts/font-awesome/fa-regular-400.ttf") format("truetype");
+}
+/**/
+.fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Free solid';
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 1em;
+    line-height: 1;
+    text-rendering: auto;
+}
+.far {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free regular';
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
