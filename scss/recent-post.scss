@@ -23,6 +23,12 @@
     }
     &__link {
         text-decoration: none;
+    }
+    &__heading {
+        width: 178px;
+        height: 14px;
+        line-height: 15px;
+        margin-bottom: 20px;
         &:hover, &:focus, &:active, &:visited {
             color: $color_blue;
             transition: all ease 0.3s;
@@ -31,12 +37,6 @@
             -o-transition: all ease 0.3s;
             -ms-transition: all ease 0.3s;
         }
-    }
-    &__heading {
-        width: 178px;
-        height: 14px;
-        line-height: 15px;
-        margin-bottom: 20px;
     }
     &__text {
         width: 160px;
