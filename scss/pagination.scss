@@ -33,6 +33,10 @@
             -ms-transition: all ease 0.3s;
         }
     }
+    &__link_current {
+        color: $color_blue;
+        background-color: $color_white;
+    }
 }
 
 .fa-angle-right:before {
