@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/right_sidebar_blog.scss"/>
     <link rel="stylesheet" href="../scss/text.scss"/>
     <link rel="stylesheet" href="../scss/webfont.css"/>
     <link rel="stylesheet" href="../scss/button.scss"/>
@@ -45,6 +46,7 @@
         </div>
         <img class="header-title__image" src="../image/header-image.png" alt="device picture" width="427" height="328">
     </section>
+
     <article class="left-side">
         <section class="blog-post">
             <img class="blog-post__image" src="../image/BlogPost1.png" alt="image post" width="360" height="298">
@@ -164,6 +166,17 @@
                 <a class="pagination__link pagination__link-next" href="#next"><i class="fas fa-angle-right"></i>
                 </a>
             </li></ul>
+    </article>
+    <article class="right-side">
+        <section class="search"> 
+            <form class="search__input search-form">
+                <div class="input-group">
+                   <input type="search" class="search-form__input" name="search" placeholder="Search" multiple><button class="btn-input__search btn__color_blue" type="button">
+                        <img class="search__image" src="../image/search.png" alt="search" width="33" height="34">
+                   </button>
+                </div>
+            </form>
+        </section>
     </article>
 </body>
 </html>
