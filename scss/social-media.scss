@@ -1,0 +1,18 @@
+@import "text.scss";
+
+.social-media {      
+    list-style-type: none;
+    width: 78px;
+    margin-left: 118px;
+
+    &__item {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    &__link {
+
+    }
+    &__image {
+
+    }
+}
