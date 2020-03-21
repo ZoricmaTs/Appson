@@ -3,6 +3,8 @@
 
 .widget {
     &__color_light-blue {
+        display: flex;
+        flex-direction: row;
         background-color: $color_light-blue;
         height: 453px;
     }
@@ -64,5 +66,8 @@
 .company-menu {
     width: 105px;
     height: 162px;
-    border: 1px solid red;
+}
+
+.blog-menu {
+
 }
