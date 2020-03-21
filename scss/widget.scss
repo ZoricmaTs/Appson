@@ -5,8 +5,11 @@
     &__color_light-blue {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         background-color: $color_light-blue;
-        height: 453px;
+        height: 193px;
+        padding-top: 130px;
+        padding-bottom: 130px;
     }
     &__color_blue {
         background-color: $color_blue;
@@ -66,8 +69,13 @@
 .company-menu {
     width: 105px;
     height: 162px;
+    margin-left: 130px;
 }
 
 .blog-menu {
+    margin-left: 115px;
+}
 
+.integrations-menu {
+    margin-left: 111px;
 }
