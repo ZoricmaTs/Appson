@@ -49,7 +49,7 @@
         width: 348px;
 
     }
-    &__menu-link_color_blue {
+    &__menu-link-front_light-blue {
         text-decoration: none;
         @extend .text__body;
         @extend .text__color_grey;
@@ -62,9 +62,10 @@
             -ms-transition: all ease 0.3s;
         }
     }    
-    &__menu-link_color_white {
+    &__menu-link-front_blue {
         text-decoration: none;
         @extend .text__body;
+        @extend .text__color_grey;
         &:hover, &:focus, &:active {
             color: $color_white;
             transition: all ease 0.3s;
