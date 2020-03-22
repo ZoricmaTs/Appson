@@ -1,13 +1,19 @@
 @import "text.scss";
 
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
 .left-side {
-    display: inline-block;
-    margin-top: 130px;
+    //display: inline-block;
+
 }
 .right-side {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 130px;
+    //display: inline-block;
+    //vertical-align: top;
     &__search-input {
         margin-bottom: 50px;
     }
