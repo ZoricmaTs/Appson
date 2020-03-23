@@ -5,6 +5,11 @@
 
 .text__h1 {
   font-family: "Quicksand", "Open Sans", Arial, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+.text__h1_small {
+  font-family: "Quicksand", "Open Sans", Arial, sans-serif;
   font-size: 36px;
   font-weight: 700;
 }

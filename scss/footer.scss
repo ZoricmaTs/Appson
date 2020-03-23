@@ -4,7 +4,10 @@
     &__color-front_light-blue {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
+        padding-left: 391px;
+        padding-right: 150px;
         height: 106px;
         background-color: $color_light-blue;
         border-top: 1px solid $color_light-grey;
@@ -12,7 +15,10 @@
     &__color-front_blue {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
+        padding-left: 391px;
+        padding-right: 150px;
         height: 106px;
         background-color: $color_blue;
         border-top: 1px solid white;
@@ -76,7 +82,7 @@
         }
     }
     &__scroll {
-        margin-left: 194px;
+        margin-right: 150px;
     }    
     
 }
