@@ -8,8 +8,8 @@
     background-color: #ffffff;
     &__heading {
         margin-top: 35px;
-        margin-left: 30px;
-        margin-bottom: 25px;
+        margin-left: 32px;
+        margin-bottom: 20px;
     }
 }
 .popular-tag {
@@ -19,7 +19,7 @@
     font-weight: 400;
     border-radius: 14px;
     border: 1px solid $color_light-grey;
-    padding: 5px 10px 5px 10px;
+    padding: 3px 12px 3px 12px;
     margin-right: 20px;
     &:hover, &:focus, &:active, &:visited {
         background-color: $color_blue;
