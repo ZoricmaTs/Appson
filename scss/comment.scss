@@ -1,0 +1,94 @@
+@import "text.scss";
+
+
+.leave-comment {
+    width: 750px;
+    &__form {
+
+    }
+    &__name {
+        margin-bottom: 50px;
+    }
+    &__name-text {
+
+    }
+    &__name-text-msg {
+
+        /* Style for "bg" */
+        width: 688px;
+        height: 108px;
+        resize: none;
+        border-radius: 5px;
+        border: 1px solid $color_light-grey;
+        outline: none;
+	    -moz-appearance: none;
+        overflow: auto; //Удаляем скролл-бары в IE
+        padding: 25px 30px 25px 30px;
+        margin-bottom: 30px;
+    }
+    &__btn {
+        margin-left: 585px;
+        margin-bottom: 130px;
+    }
+}
+
+input[type="text"] {
+    @extend .text__body;
+    vertical-align: middle;
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+    height: 60px;
+    width: 326px;
+    line-height: 27px;
+    color: $color_grey;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    &:focus, &:active {
+        outline: none;
+      }
+}
+input[type="text"]:nth-child(1) {
+    margin-right: 30px;
+}
+
+input[type="text"]::placeholder {   
+    color: $color_grey;       
+}
+input[type="text"]::-moz-placeholder { 
+    color: $color_grey;
+}
+input[type="text"]::-webkit-input-placeholder { 
+    color: $color_grey;  
+}
+
+textarea::placeholder {
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif; 
+    @extend .text__body;
+    color: $color_grey; 
+    /* Style for "bg" */
+    width: 750px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+textarea::-moz-placeholder {
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif; 
+    @extend .text__body;
+    color: $color_grey; 
+    /* Style for "bg" */
+    width: 750px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+
+}
+textarea::-webkit-input-placeholder { 
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+    @extend .text__body;
+    color: $color_grey; 
+    /* Style for "bg" */
+    width: 750px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}

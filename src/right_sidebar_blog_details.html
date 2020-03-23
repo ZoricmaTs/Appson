@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../scss/recent-post.scss"/>
     <link rel="stylesheet" href="../scss/catagory.scss"/>
     <link rel="stylesheet" href="../scss/popular-tag.scss"/>
+    <link rel="stylesheet" href="../scss/comment.scss"/>
     <link rel="stylesheet" href="../scss/social-media.scss"/>
     <link rel="stylesheet" href="../scss/footer.scss"/>
     <link rel="stylesheet" href="../scss/widget.scss"/>
@@ -53,7 +54,7 @@
         <img class="header-title__image" src="../image/header-image.png" alt="device picture" width="427" height="328">
     </section>
     <article class="blog-container">
-        <article class="left-side">
+        <article class="left-side__detail">
             <section class="blog-post-detail">
                 <img class="blog-post-detail__image" src="../image/right_sidebar_blog_detailimage.png" alt="image post" width="750" height="330">
                 <div class="blog-post-detail__container">
@@ -117,7 +118,17 @@
                     </button><button class="blog-post-detail__button btn btn__color_transparent" type="button" name="Next Post">Next Post</button>
                 </div>
             </section>
-        
+            <section class="leave-comment">
+                <h2 class="blog-post-detail__heading text__h2_small text__color_dark-grey">Leave a Comment</h2>
+                <form class="leave-comment__form" action="#" method="post">
+                    <div class="leave-comment__name">
+                        <input class="leave-comment__name-text" type="text" name="name" id="name" placeholder="Enter Name">
+                        <input class="leave-comment__name-text" type="text" name="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <textarea class="leave-comment__name-text-msg" type="text" name="message" id="message" placeholder="Enter Comment">
+                    </textarea><input class="leave-comment__btn btn btn__color_blue" type="submit" value="Submit">
+                </form>
+            </section>
 
           
         </article>
