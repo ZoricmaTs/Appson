@@ -1,0 +1,20 @@
+@import "text.scss";
+@import "button.scss";
+
+/* Style for "How to upl" */
+.question {
+    &__heading {
+        height: 23px;
+        font-weight: 500;
+        line-height: 30px;
+        border: 1px solid red;
+        margin-bottom: 34px;
+    }
+    &__text {
+        font-weight: 400;
+        line-height: 27px;
+        border: 1px solid red;
+        margin-bottom: 47px;
+    }
+
+}
