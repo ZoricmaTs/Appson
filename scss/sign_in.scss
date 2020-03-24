@@ -15,7 +15,7 @@
     }
     &__body {
         text-align: center;
-        width: 731px;
+        width: 735px;
         height: 43px;
         font-weight: 400;
         line-height: 27px;   
@@ -41,11 +41,21 @@
         line-height: 27px;
         margin-bottom: 50px;
     }
+    &__full-name {
+        margin-bottom: 30px;
+    }
     &__email {
         margin-bottom: 30px;
     }
     &__password {
         margin-bottom: 30px;
+    }
+    &__check-password {
+        margin-bottom: 27px;
+    }
+    &__login {
+        text-align: center;
+        margin-bottom: 25px;
     }
     &__links {
         margin-bottom: 25px;
@@ -55,6 +65,13 @@
     }
     &__link:nth-of-type(1) {
         margin-right: 137px;
+    }
+    &__link-login {
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    &__text {
+    
     }
     &__text-link {
         font-family: 'Quicksand', "Open Sans", Arial, sans-serif;

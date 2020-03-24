@@ -2,12 +2,14 @@
 
 .btn {
     @extend .text__body;
+    
     width: 165px;
     height: 50px;
     border-radius: 25px;
     border: none;
     cursor: pointer;
     &__color_dark-blue {
+      font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         background-color: $color_dark-blue;
         color: $color_white;
           &:hover, &:focus, &:active, &:visited {
@@ -21,8 +23,10 @@
     }
     
     &__color_blue {
+      font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         background-color: $color_blue;
         color: $color_white;
+        font-size: 16px;
         font-weight: 700;
         &:hover, &:focus, &:active, &:visited {
           background-color: $color_hover;
@@ -35,6 +39,7 @@
     }
     
     &__color_transparent {
+      font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
         background-color: transparent;
         color: $color_blue;
         font-weight: 700;
@@ -68,6 +73,7 @@
 
 .btn-rect {
     @extend .text__body;
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
     font-weight: 700;
     width: 263px;
     height: 76px;
@@ -254,6 +260,7 @@ input[type="search"]::-webkit-input-placeholder {
 //----------------------------------------------------------------------
 input[type="text"] {
   @extend .text__body;
+  font-size: 16px;
   vertical-align: middle;
   font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
   height: 60px;
