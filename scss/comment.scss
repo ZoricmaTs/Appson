@@ -13,8 +13,6 @@
 
     }
     &__name-text-msg {
-
-        /* Style for "bg" */
         width: 688px;
         height: 108px;
         resize: none;
@@ -32,54 +30,3 @@
     }
 }
 
-input[type="text"] {
-    @extend .text__body;
-    vertical-align: middle;
-    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
-    height: 60px;
-    width: 326px;
-    line-height: 27px;
-    color: $color_grey;
-    padding-left: 30px;
-    border-radius: 5px;
-    border: 1px solid #dcdcdc;
-    &:focus, &:active {
-        outline: none;
-      }
-}
-input[type="text"]:nth-child(1) {
-    margin-right: 30px;
-}
-
-input[type="text"]::placeholder {   
-    color: $color_grey;       
-}
-input[type="text"]::-moz-placeholder { 
-    color: $color_grey;
-}
-input[type="text"]::-webkit-input-placeholder { 
-    color: $color_grey;  
-}
-
-textarea::placeholder {
-    font-family: 'Quicksand', "Open Sans", Arial, sans-serif; 
-    @extend .text__body;
-    color: $color_grey; 
-    /* Style for "bg" */
- 
-}
-textarea::-moz-placeholder {
-    font-family: 'Quicksand', "Open Sans", Arial, sans-serif; 
-    @extend .text__body;
-    color: $color_grey; 
-    /* Style for "bg" */
-   
-
-}
-textarea::-webkit-input-placeholder { 
-    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
-    @extend .text__body;
-    color: $color_grey; 
-    /* Style for "bg" */
-  
-}
