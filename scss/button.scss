@@ -76,7 +76,32 @@
     border: none;
     cursor: pointer;
 }
-
+.btn-rect__facebook {
+  @extend .text__body;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 165px;
+  height: 55px;
+  line-height: 27px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #3b5999;
+  border: none;
+  cursor: pointer;
+}
+.btn-rect__twitter {
+  @extend .text__body;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 165px;
+  height: 55px;
+  line-height: 27px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #55acee;
+  border: none;
+  cursor: pointer;
+}
 .btn-rect-min {
   @extend .text__h3;
   line-height: 30px;
@@ -273,6 +298,5 @@ textarea::-webkit-input-placeholder {
   color: $color_grey; 
   /* Style for "bg" */
 }
-
 
 

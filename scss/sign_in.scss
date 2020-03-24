@@ -1,0 +1,99 @@
+@import "text.scss";
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.login-title {
+
+    &__heading {
+        margin-bottom: 30px;  
+        text-align: center; 
+    }
+    &__body {
+        text-align: center;
+        width: 731px;
+        height: 43px;
+        font-weight: 400;
+        line-height: 27px;   
+        margin: 0 auto 50px auto;  
+    }
+}
+.login-btn:nth-of-type(1) {
+    margin-right: 30px;
+}
+.login-title-btn {
+    margin: 0 auto 50px auto; 
+}
+
+.sign-in {
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__body {
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 50px;
+    }
+    &__email {
+        margin-bottom: 30px;
+    }
+    &__password {
+        margin-bottom: 30px;
+    }
+    &__links {
+        margin-bottom: 25px;
+    }
+    &__link {
+        text-decoration: none;
+    }
+    &__link:nth-of-type(1) {
+        margin-right: 137px;
+    }
+    &__text-link {
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        text-decoration: none;
+        height: 10px;
+        color: #0f7bff;
+    }
+    &__btn {
+
+    }
+}
+
+
+input[type="password"] {
+    @extend .text__body;
+    vertical-align: middle;
+    font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+    height: 60px;
+    width: 326px;
+    line-height: 27px;
+    color: $color_grey;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    &:focus, &:active {
+        outline: none;
+      }
+  }
+  
+  
+  input[type="password"]::placeholder {   
+    color: $color_grey;       
+  }
+  input[type="password"]::-moz-placeholder { 
+    color: $color_grey;
+  }
+  input[type="password"]::-webkit-input-placeholder { 
+    color: $color_grey;  
+  }
