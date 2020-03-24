@@ -66,20 +66,14 @@ textarea::placeholder {
     @extend .text__body;
     color: $color_grey; 
     /* Style for "bg" */
-    width: 750px;
-    height: 160px;
-    border-radius: 5px;
-    border: 1px solid #dcdcdc;
+ 
 }
 textarea::-moz-placeholder {
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif; 
     @extend .text__body;
     color: $color_grey; 
     /* Style for "bg" */
-    width: 750px;
-    height: 160px;
-    border-radius: 5px;
-    border: 1px solid #dcdcdc;
+   
 
 }
 textarea::-webkit-input-placeholder { 
@@ -87,8 +81,5 @@ textarea::-webkit-input-placeholder {
     @extend .text__body;
     color: $color_grey; 
     /* Style for "bg" */
-    width: 750px;
-    height: 160px;
-    border-radius: 5px;
-    border: 1px solid #dcdcdc;
+  
 }
