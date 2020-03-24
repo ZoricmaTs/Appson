@@ -74,9 +74,46 @@
     border: none;
     cursor: pointer;
 }
+.btn-rect-min {
+  @extend .text__h3;
+  line-height: 30px;
+  width: 68px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+    &__color_blue {
+      background-color: $color_blue;
+      color: $color_white;
+      height: 30px;
+      &:hover, &:focus, &:active, &:visited {
+        background-color: $color_hover;
+        transition: all ease 0.3s;
+        -webkit-transition: all ease 0.3s;
+        -moz-transition: all ease 0.3s;
+        -o-transition: all ease 0.3s;
+        -ms-transition: all ease 0.3s;
+    }
+  }
+  &__color_transparent {
+      background-color: transparent;
+      color: $color_blue;
+  
+      height: 30px;
+      border: 1px solid $color_blue;
+      &:hover, &:focus, &:active, &:visited {
+        color: $color_hover;
+        border: 1px solid $color_hover; 
+        transition: all ease 0.3s;
+        -webkit-transition: all ease 0.3s;
+        -moz-transition: all ease 0.3s;
+        -o-transition: all ease 0.3s;
+        -ms-transition: all ease 0.3s;
+    }
+}
 
 
 .subscribe-form {
+  cursor: pointer;
     width: 556px;
     height: 60px;
     margin: 0 auto;
@@ -131,6 +168,7 @@
   }
 
 .search-form {
+  cursor: pointer;
   width: 360px;
   height: 64px;
   @extend .text__body;
@@ -168,7 +206,6 @@ input[type="search"] {
   color: $color_grey;
   border-right: none;  
   padding-left: 30px;
-
 }
 input[type="search"]::placeholder {   
   color: $color_grey;
@@ -179,5 +216,7 @@ input[type="search"]::-moz-placeholder {
 }
 input[type="search"]::-webkit-input-placeholder { 
   color: $color_grey;  
+  }
 }
+
 

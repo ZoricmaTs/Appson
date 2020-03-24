@@ -1,5 +1,5 @@
 @import "text.scss";
-@import "button.scss";
+
 
 /* Style for "How to upl" */
 .question {
@@ -15,6 +15,17 @@
         line-height: 27px;
         border: 1px solid red;
         margin-bottom: 47px;
+    }
+    &__help {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        height: 30px;
+    }
+    &__help-btn:nth-of-type(1) {
+        margin-right: 15px;
     }
 
 }
