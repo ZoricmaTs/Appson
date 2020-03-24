@@ -2,8 +2,15 @@
 @import "button.scss";
 
 .faq-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-top: 130px;
     padding-bottom: 130px;
+    &__left-side {
+        margin-right: 130px;
+
+    }
     &__right-side {
         width: 645px;
 
