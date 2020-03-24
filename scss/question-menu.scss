@@ -4,7 +4,7 @@
     &__list {
         /* Style for "bg" */
         width: 330px;
-        height: 350px;
+        height: 348px;
         border-radius: 5px;
         border: 1px solid #dcdcdc;
     }
@@ -14,12 +14,16 @@
         height: 18px;
         @extend .text__h3;
         @extend .text__color_dark-grey;
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid $color_light-grey;
         padding-left: 30px;
         padding-top: 25px;
         padding-bottom: 26px;
         &:hover, &:focus, &:active, &:visited {
-            background-color: $color_hover;
+            height: 18px;
+            @extend .text__color_white;
+            background-color: $color_blue;
+            border-radius: 5px;
+            border-bottom: none;
             transition: all ease 0.3s;
             -webkit-transition: all ease 0.3s;
             -moz-transition: all ease 0.3s;
@@ -36,13 +40,11 @@
         @extend .text__h3;
         @extend .text__color_white;
         padding-left: 30px;
-        /* Style for "Rectangle" */
-width: 300px;
-padding-top: 23px;
-padding-bottom: 28px;
-border-radius: 5px;
-background-color: #0f7bff;
-color: white
+        width: 300px;
+        padding-top: 25px;
+        padding-bottom: 26px;
+        border-radius: 5px;
+        background-color: $color_blue;
 
     }
 }
