@@ -57,16 +57,17 @@
 }
 
 .btn-double {
-  cursor: pointer;
     &__left {
+        cursor: pointer;
         width: 164px;
         height: 50px;
         border: none;
         border-radius: 25px 0 0 25px;
     }
     &__right {
+        cursor: pointer;
         width: 164px;
-        height: 50px;
+        height: 49px;
         border-radius: 0 25px 25px 0;
     }
 }
@@ -154,6 +155,8 @@
     margin: 0 auto;
     @extend .text__body;
     font-weight: 400;
+    // Style for "Enter Your"
+
     &:focus {
       outline: none;
     }
@@ -165,6 +168,11 @@
     
     .btn-input {
       vertical-align: middle;
+      color: #0f7bff;
+      font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 27px;
       border: none;
       height: 60px;
       width: 161px;
@@ -175,6 +183,10 @@
       text-transform: uppercase;
       position: relative;
       cursor: pointer;
+      // Style for "SUBSCRIBE"
+
+
+
     }
   }
 
@@ -183,13 +195,14 @@
     @extend .text__body;
     vertical-align: middle;
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
     height: 56px;
     width: 358px;
     background-color: transparent;
     color: $color_white;
     border-right: none;  
     padding-left: 30px;   
-
   }
 
   input[type="email"]::placeholder {   

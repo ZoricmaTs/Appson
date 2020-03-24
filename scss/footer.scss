@@ -80,7 +80,7 @@
     &__menu-link-front_blue {
         text-decoration: none;
         @extend .text__body;
-        @extend .text__color_grey;
+        color: #d8d8d8;
         &:hover, &:focus, &:active {
             color: $color_white;
             transition: all ease 0.3s;
