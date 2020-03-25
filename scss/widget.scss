@@ -52,6 +52,7 @@
     }
     &__link {
         @extend .text__body;
+        font-family: 'Quicksand', "Open Sans", Arial, sans-serif; //!!!
         @extend .text__color_grey;
         text-decoration: none;
         line-height: 27px;

@@ -21,6 +21,7 @@
     border: 1px solid $color_light-grey;
     padding: 3px 12px 3px 12px;
     margin-right: 20px;
+    cursor: pointer;
     &:hover, &:focus, &:active, &:visited {
         background-color: $color_blue;
         color: $color_white;

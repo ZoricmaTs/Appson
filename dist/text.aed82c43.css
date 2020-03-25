@@ -37,6 +37,7 @@
   font-size: 14px;
 }
 .text__uppercase {
+  font-family: "Quicksand", "Open Sans", Arial, sans-serif;
   text-transform: uppercase;
 }
 .text__color_dark-grey {

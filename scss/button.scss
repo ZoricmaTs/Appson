@@ -253,6 +253,10 @@ input[type="search"] {
   font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
   height: 64px;
   width: 277px;
+  /* Style for "Search" */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
   background-color: transparent;
   color: $color_grey;
   border-right: none;  
