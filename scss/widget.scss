@@ -7,7 +7,6 @@
         flex-direction: row;
         justify-content: center;
         background-color: $color_light-blue;
-        height: 193px;
         padding-top: 130px;
         padding-bottom: 130px;
     }
@@ -39,6 +38,11 @@
 }
 
 .widget-menu {
+    &__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     &__heading {
         margin-bottom: 25px;
     }
@@ -67,16 +71,189 @@
     }
 }
 
-.company-menu {
-    width: 105px;
-    height: 162px;
-    margin-left: 130px;
+
+
+
+
+
+@media (min-width: 1600px) and  (max-width: 3200px){ 
+    .integrations-menu {
+        margin-left: 111px;
+     } 
+     .company-menu {
+        width: 105px;
+        height: 162px;
+        margin-left: 130px;
+    }
+    
+    .blog-menu {
+       margin-left: 115px;
+    }
 }
 
-.blog-menu {
-    margin-left: 115px;
+
+@media (min-width: 1400px) and  (max-width: 1599px){ 
+    .integrations-menu {
+        margin-left: 70px;
+     } 
+     .company-menu {
+        width: 105px;
+        height: 162px;
+        margin-left: 70px;
+    }
+    
+    .blog-menu {
+       margin-left: 70px;
+    }
 }
 
-.integrations-menu {
-    margin-left: 111px;
+@media (min-width: 1000px) and  (max-width: 1399px){ 
+    .integrations-menu {
+        margin-left: 35px;
+     } 
+     .company-menu {
+        width: 105px;
+        height: 162px;
+        margin-left: 35px;
+    }
+    
+    .blog-menu {
+       margin-left: 50px;
+    }
+
+    .widget__logo{
+        width: 325px;
+    }
 }
+
+@media (min-width: 700px) and  (max-width: 999px){ 
+    .widget__color_light-blue {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color_light-blue;
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .widget-menu__container{
+        width : 500px;
+        margin-top: 50px;
+    }
+    .integrations-menu {
+        //margin-left: 35px;
+     } 
+     .company-menu {
+        width: 105px;
+        height: 162px;
+        //margin-left: 35px;
+    }
+    
+    .blog-menu {
+       //margin-left: 50px;
+    }
+    
+    .widget__logo{
+        width: 500px;
+    }
+}
+
+@media (min-width: 480px) and  (max-width: 699px) {
+    .widget__color_light-blue {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color_light-blue;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .widget-menu__heading {
+        margin-bottom: 10px;
+    }
+
+    .widget-menu__container {
+        width: 356px;
+        margin-top: 20px;
+    }
+    .integrations-menu {
+        //margin-left: 35px;
+     } 
+     .company-menu {
+        width: 105px;
+        height: 162px;
+        //margin-left: 35px;
+    }
+    
+    .blog-menu {
+       //margin-left: 50px;
+    }
+    
+    .widget__logo{
+        width: 350px;
+    }
+
+    .widget__text{
+        font-size: 13px !important;
+        margin-bottom: 10px;
+    }
+    .widget-menu__heading{
+        font-size: 16px !important;
+    }
+    
+    .widget-menu__link{
+        font-size: 13px !important;
+        line-height: 20px !important;
+    }  
+}
+@media (min-width: 320px) and  (max-width: 479px) {
+    .widget__color_light-blue {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color_light-blue;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .widget-menu__heading {
+        margin-bottom: 10px;
+    }
+
+    .widget-menu__container{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .integrations-menu {
+        //margin-left: 35px;
+     } 
+     .company-menu {
+        width: 105px;
+        height: 162px;
+        //margin-left: 35px;
+    }
+    
+    .blog-menu {
+       //margin-left: 50px;
+    }
+    
+    .widget__logo{
+        width: 300px;
+    }
+
+    .widget__text{
+        font-size: 13px !important;
+        margin-bottom: 10px;
+    }
+    .widget-menu__heading{
+        font-size: 16px !important;
+    }
+    
+    .widget-menu__link{
+        font-size: 13px !important;
+        line-height: 20px !important;
+    }
+
+}
+

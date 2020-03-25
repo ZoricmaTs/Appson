@@ -330,3 +330,9 @@ textarea::-webkit-input-placeholder {
 }
 
 
+@media (min-width: 320px) and  (max-width: 479px) {
+input[type="text"] {
+  height: 50px;
+  width: 250px;
+  }  
+}
