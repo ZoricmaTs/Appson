@@ -3,8 +3,7 @@
 .question-menu {
     &__list {
         /* Style for "bg" */
-        width: 330px;
-        height: 348px;
+        width: 360px;      
         border-radius: 5px;
         border: 1px solid #dcdcdc;
     }
@@ -39,8 +38,7 @@
         height: 18px;
         @extend .text__h3;
         @extend .text__color_white;
-        padding-left: 30px;
-        width: 300px;
+        padding-left: 30px;        
         padding-top: 25px;
         padding-bottom: 26px;
         border-radius: 5px;

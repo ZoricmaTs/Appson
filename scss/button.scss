@@ -2,7 +2,7 @@
 
 .btn {
     @extend .text__body;
-    
+    font-size: 16px;
     width: 165px;
     height: 50px;
     border-radius: 25px;
@@ -59,6 +59,7 @@
 .btn-double {
     &__left {
         cursor: pointer;
+        font-size: 16px;
         width: 164px;
         height: 50px;
         border: none;
@@ -66,6 +67,7 @@
     }
     &__right {
         cursor: pointer;
+        font-size: 16px;
         width: 164px;
         height: 49px;
         border-radius: 0 25px 25px 0;
@@ -74,6 +76,7 @@
 
 .btn-rect {
     @extend .text__body;
+    font-size: 16px;
     font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
     font-weight: 700;
     width: 263px;
@@ -85,6 +88,7 @@
 }
 .btn-rect__facebook {
   @extend .text__body;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   width: 165px;
@@ -98,6 +102,7 @@
 }
 .btn-rect__twitter {
   @extend .text__body;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   width: 165px;
