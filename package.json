@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/faq_page.html",
+    "dev": "parcel src/homepage.html",
     "build": "parcel build src/*.html --out-dir docs --public-url ./ "
   },
   "keywords": [],

@@ -64,6 +64,10 @@
             -ms-transition: all ease 0.3s;
         }
     }
+    &__heading-link {
+        text-decoration: none;
+        color: $color_blue;
+    }
     &__body {
         @extend .text__body;
         @extend .text__color_grey;  
@@ -88,6 +92,11 @@
         width: 490px;
         height: 59px;
         margin-bottom: 24px;
+    }
+    &__heading-link {
+        text-decoration: none;
+        @extend .text__h2_small;
+        @extend .text__color_blue;
     }
     &__body {
         font-weight: 400;

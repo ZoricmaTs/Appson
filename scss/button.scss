@@ -254,6 +254,7 @@
 
 input[type="search"] {
   @extend .text__body;
+  outline: none;
   vertical-align: middle;
   font-family: 'Quicksand', "Open Sans", Arial, sans-serif;
   height: 64px;
