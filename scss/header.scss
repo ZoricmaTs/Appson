@@ -86,6 +86,7 @@
     background-color: $color_light-blue;
     &__image {
         margin-right: 14px;
+        max-width: 100%;
     }
 }
 
@@ -102,7 +103,26 @@
     }
 }
 
+@media (min-width: 1000px) and  (max-width: 1399px) { 
+    .header-title-text {
+        font-size: 38px;
+        max-width: 500px; 
+        min-width: 400px; 
+    }
+}
+
 @media (min-width: 700px) and  (max-width: 999px) { 
+    .header-title {
+        &__image {
+            width: 300px;
+            height: 260px;   
+        }
+    }
+    .header-title-text {
+        font-size: 32px;
+        max-width: 303px; 
+        min-width: 300px; 
+    }
     .heading {
         height: 100px;
         padding-left: 50px;
@@ -120,6 +140,24 @@
 }
 
 @media (min-width: 480px) and  (max-width: 699px) {
+    .header-title {
+        &__image {
+            width: 240px;
+            height: 220px;   
+            margin-right: 0;     
+        }
+    }
+    .header-title-text {      
+        max-width: 200px; 
+        min-width: 200px; 
+        &__heading{
+            font-size: 27px !important;
+        }
+        &__body{
+            font-size: 16px !important;
+        }
+    }
+
     .heading {
         height: 100px;
         padding-left: 10px;
@@ -140,6 +178,29 @@
 }
 
 @media (min-width: 320px) and  (max-width: 479px) {
+    .header-title {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center; 
+        height:469px;
+        &__image {
+            width: 240px;
+            height: 220px;   
+            margin-right: 0;     
+        }    
+    }
+    .header-title-text {
+        height: 120px;
+        width: 290px;
+        margin-top: 30px;
+        &__heading{
+            font-size: 27px !important;
+        }
+        &__body{
+            font-size: 16px !important;
+        }
+    }
+
     .heading {     
         display: flex;
         flex-direction: column;

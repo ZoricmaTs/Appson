@@ -9,11 +9,70 @@
     padding-bottom: 130px;
     &__left-side {
         margin-right: 130px;
-
     }
     &__right-side {
         width: 645px;
-
-
     }
+}
+
+@media (min-width: 1600px) and  (max-width: 3200px){ 
+
+}
+@media (min-width: 1400px) and  (max-width: 1599px){ 
+}
+@media (min-width: 1000px) and  (max-width: 1399px){ 
+}
+@media (min-width: 1000px) and  (max-width: 1399px){ 
+    .faq-page {
+        padding: 130px 80px 130px 80px;
+        &__left-side {
+            margin-right: 100px;
+        }
+        &__right-side {
+            width: 480px;
+        }
+    }
+}
+@media (min-width: 700px) and  (max-width: 999px){ 
+    .faq-page {
+        
+        padding: 80px;
+        &__left-side {
+            margin-right: 40px;
+        }
+        &__right-side {
+            width: 240px;
+        }
+    }
+    
+}
+
+@media (min-width: 480px) and  (max-width: 699px){
+    .faq-page {
+        flex-direction: column;
+        padding: 60px 56px;
+        &__left-side {
+            margin-right: 40px;
+        }
+        &__right-side {
+            margin-top: 40px;
+            width: 340px;
+        }
+    }
+    
+}
+
+@media (min-width: 320px) and  (max-width: 479px){
+    .faq-page {
+        flex-direction: column;
+        padding: 47px 22px;
+        &__left-side {
+            margin-right: 40px;
+        }
+        &__right-side {
+            margin-top: 40px;
+            width: 268px;
+        }
+    }
+    
 }
