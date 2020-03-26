@@ -329,6 +329,15 @@ textarea::-webkit-input-placeholder {
   /* Style for "bg" */
 }
 
+@media (min-width: 480px) and  (max-width: 699px) {
+  .subscribe-form{
+    width:480px;
+  }
+  input[type=email]{
+   width:100px;
+ }
+}
+  
 
 @media (min-width: 320px) and  (max-width: 479px) {
 input[type="text"] {
