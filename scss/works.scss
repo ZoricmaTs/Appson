@@ -57,3 +57,108 @@
         margin-bottom: 127px;  
     }
 }
+
+@media (min-width: 1000px) and  (max-width: 1399px) {
+    .work {
+        width: 267px;
+        margin-left: 39px;
+    }
+    .works-block {      
+        background-position: 148px 50px;
+    }
+ }
+ @media (min-width: 700px) and  (max-width: 999px) {
+    .work {
+        width: 182px;
+        margin-left: 26px;
+    }
+    .works-block {      
+        background-position: 73px 50px;
+        background-size: 81% 1px;
+    }
+    .work-text-title {
+        width: 560px;
+    }
+ }
+
+ @media (min-width: 480px) and  (max-width: 699px) {
+    .work {
+        width: 117px;
+    margin-left: 21px;
+    }
+    .works-block {      
+        background-position: 73px 50px;
+        background-size: 81% 1px;
+    }
+    .work-text-title {
+        width: 391px;
+    }
+    .work-text-title__heading{
+        font-size: 28px !important;
+        padding-top: 10px;
+    }
+    .work-text-title__body{
+        font-size: 13px !important;
+    }
+    .work-text__heading {
+        font-size: 16px !important;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .work-text__body {
+        font-size: 13px !important;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .works-container {      
+        height: 563px;
+    }
+ }
+
+
+ @media (min-width: 320px) and  (max-width: 479px) {
+    .work {
+        width: 85px;
+    margin-left: 21px;
+    }
+    .work__image {
+        margin-bottom: 10px;
+        width: 44px;
+        height: 44px;
+    }
+    .works-block {      
+        background-position: 43px 23px;
+        background-size: 79% 1px;
+    }
+    .work-text-title {
+        width: 293px;
+    }
+    .work-text-title__heading{
+        font-size: 28px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-position: center -18px;
+
+    }
+    .work-text-title__body{
+        font-size: 13px !important;
+        margin-bottom: 80px;
+       
+    }
+    .work-text__heading {
+        font-size: 16px !important;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .work-text__body {
+        font-size: 13px !important;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .works-container {      
+        height: 563px;
+    }
+ }
+
+
+

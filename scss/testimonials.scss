@@ -60,3 +60,213 @@
     display: block;
     margin-bottom: 29px;
 }
+
+@media (min-width: 1400px) and  (max-width: 3200px){ 
+    .review:nth-child(2){
+        display: none;
+    }
+    .review:nth-child(3){
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) and  (max-width: 1399px){ 
+    .review:nth-child(2){
+        display: none;
+    }
+    .review:nth-child(3){
+        display: none;
+    }
+    .testimonials-block__image {
+        margin-right: 50px;
+        width: 547px;
+        height: 329px;
+    }
+    .testimonials-block{
+        height: 329px;
+    }
+    .review {        
+        width: 259px;
+        max-height: 171px;
+        margin-right: 0;
+        padding: 20px 15px;
+    }
+    .testimonials__heading {
+        margin-bottom: 15px;
+    }
+    .customer-description{
+        margin-bottom: 10px;
+    }
+    .customer-name {
+        margin-bottom: 5px;
+    }
+    .customer-name__icon{
+        top: 28px;
+    }
+    .testimonials__heading {
+        width: 320px;
+    }
+}
+
+
+@media (min-width:  700px) and  (max-width: 999px){ 
+    .review:nth-child(1){
+        margin-left :40px;
+    }
+    .reviews__pagination{
+        margin-left :40px;
+    }
+    .review:nth-child(3){
+        display: none;
+    }
+    .testimonials-block__image {
+        margin-right: 50px;
+        width: 547px;
+        height: 329px;
+    }
+    .testimonials-block{
+        height: 668px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .review {        
+        width: 259px;
+        max-height: 171px;
+        margin-right: 10px;
+        padding: 20px 15px;
+        
+    }
+   
+    .testimonials__heading {
+        margin-bottom: 15px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .customer-description{
+        margin-bottom: 10px;
+    }
+    .customer-name {
+        margin-bottom: 5px;
+    }
+    .customer-name__icon{
+        top: 28px;
+    }
+    .testimonials__heading {
+        width: 320px;
+    }
+}
+
+
+
+@media (min-width:  480px) and  (max-width: 699px){ 
+    .review:nth-child(1){
+        margin-left :40px;
+    }
+    .reviews__pagination{
+        margin-left :40px;
+    }
+    .review:nth-child(2){
+        display: none;
+    }
+    .review:nth-child(3){
+        display: none;
+    }
+    .testimonials-block__image {
+        margin-right: 0;
+        width: 479px;
+        height: 306px;
+    }
+    .testimonials-block{
+        height: 617px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .review {        
+        width: 259px;
+        max-height: 171px;
+        margin-right: 10px;
+        padding: 20px 15px;
+        
+    }
+   
+    .testimonials__heading {
+        margin-bottom: 15px;
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 28px !important;
+    }
+    .customer-description{
+        margin-bottom: 10px;
+        font-size: 13px !important;
+    }
+    .customer-name {
+        margin-bottom: 5px;
+        font-size: 16px !important;
+    }
+    .customer-name__icon{
+        top: 28px;
+    }
+    .testimonials__heading {
+        width: 320px;
+    }
+    .review__content{
+        font-size: 13px !important;
+    }
+}
+
+
+@media (min-width:  320px) and  (max-width: 479px){ 
+    .review:nth-child(1){
+        margin-left :15px;
+    }
+    .reviews__pagination{
+        margin-left :15px;
+    }
+    .review:nth-child(2){
+        display: none;
+    }
+    .review:nth-child(3){
+        display: none;
+    }
+    .testimonials-block__image {
+        margin-right: 0;
+    width: 317px;
+    height: 266px;
+    }
+    .testimonials-block{
+        height: 617px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .review {        
+        width: 259px;
+        max-height: 171px;
+        margin-right: 10px;
+        padding: 20px 15px;
+        
+    }
+   
+    .testimonials__heading {
+        margin-bottom: 15px;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-size: 28px !important;
+    }
+    .customer-description{
+        margin-bottom: 10px;
+        font-size: 13px !important;
+    }
+    .customer-name {
+        margin-bottom: 5px;
+        font-size: 16px !important;
+    }
+    .customer-name__icon{
+        top: 28px;
+    }
+    .testimonials__heading {
+        width: 320px;
+    }
+    .review__content{
+        font-size: 13px !important;
+    }
+}
