@@ -3,7 +3,7 @@
 .about-appson {
     &__container {
         display: block;     
-        height: 1190px;
+        //height: 1190px;
         background-color: $color_white;
         margin: 0 auto;
     }
@@ -48,3 +48,126 @@
     }
 
 }
+
+
+@media (min-width: 1000px) and  (max-width: 1399px) { 
+   .about-appson__image{
+       width:465px;
+       height: 467px;
+   }
+   .about-appson__text-block{
+    max-width: 439px;
+   }
+   .about-appson__text-block:nth-child(2) {
+    margin-right: 37px;
+    }
+    .about-appson__text-block:nth-of-type(1) {
+        margin-left: 37px;
+    }        
+}
+
+@media (min-width: 700px) and  (max-width: 999px) { 
+    .about-appson__image{
+        width: 352px;
+        height: 351px;
+    }
+    .about-appson__text-block{
+     max-width: 439px;    
+     margin-bottom: 9px;
+     margin-top: 86px;
+    }
+    .about-appson__text-block:nth-child(2) {
+     margin-right: 37px;
+     }
+     .about-appson__text-block:nth-of-type(1) {
+         margin-left: 47px;
+     }
+     .about-appson__block:nth-child(2) {       
+        margin-top: 0;
+    }    
+    .about-appson__text_body {
+        margin-bottom: 10px;
+    }    
+ }
+
+ 
+@media (min-width: 480px) and  (max-width: 699px) { 
+    .about-appson__image{
+        width: 352px;
+        height: 351px;
+    }
+    .about-appson__text-block{
+     max-width: 439px;    
+     margin-bottom: 9px;
+     margin-top: 86px;
+    }
+    .about-appson__text-block:nth-child(2) {
+       margin: 0 42px;
+     }
+     .about-appson__text-block:nth-of-type(1) {
+        margin: 0 42px;
+     }
+     .about-appson__block:nth-child(2) {       
+        margin-top: 0;
+    }    
+    .about-appson__text_body {
+        margin-bottom: 10px;
+        font-size: 13px !important;
+    }   
+    .about-appson__block{
+        flex-direction :column;
+        align-items: center;
+    } 
+    .about-appson__block:nth-child(2){
+        flex-direction :column;
+        align-items: center;
+    }
+    .about-appson__text_heading{
+        margin-bottom: 10px;
+        font-size: 28px !important;
+    }   
+    .about-appson__link{
+        font-size: 13px !important;
+    }
+ }
+
+ 
+@media (min-width: 320px) and  (max-width: 479px) { 
+    .about-appson__image{
+        width: 287px;
+        height: 289px;
+    }
+    .about-appson__text-block{
+     max-width: 439px;    
+     margin-bottom: 9px;
+     margin-top: 86px;
+    }
+    .about-appson__text-block:nth-child(2) {
+       margin: 0 20px;
+     }
+     .about-appson__text-block:nth-of-type(1) {
+        margin: 0 20px;
+     }
+     .about-appson__block:nth-child(2) {       
+        margin-top: 0;
+    }    
+    .about-appson__text_body {
+        margin-bottom: 10px;
+        font-size: 13px !important;
+    }   
+    .about-appson__block{
+        flex-direction :column;
+        align-items: center;
+    } 
+    .about-appson__block:nth-child(2){
+        flex-direction :column;
+        align-items: center;
+    }
+    .about-appson__text_heading{
+        margin-bottom: 10px;
+        font-size: 28px !important;
+    }   
+    .about-appson__link{
+        font-size: 13px !important;
+    }
+ }

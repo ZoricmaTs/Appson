@@ -71,6 +71,7 @@
     &__body {
         @extend .text__body;
         @extend .text__color_grey;  
+        line-height: 27px; 
     }
 }
 
@@ -102,6 +103,7 @@
         @extend .text__color_grey;
         @extend .text__body;
         margin-bottom: 37px;
+        line-height: 27px; 
     }
     &__link {
         text-decoration: none;
@@ -191,6 +193,7 @@
     }
     .latest-news-text-title__heading{
         background-position: 168px;
+        font-size: 28px !important;
     }
 
     .post__body,.post-active__link{
@@ -207,6 +210,10 @@
     .post-active__heading{
       
     }
+   
+    .latest-news-text-title__body {
+        font-size: 13px !important;
+    }
 }
 
 
@@ -217,6 +224,7 @@
     }
     .post {
         width: 285px;
+        
     }
     .post-active{
         margin-bottom: 50px;
@@ -253,10 +261,12 @@
     .post-active__body{
         font-size: 13px !important;
         margin-bottom: 9px;
+        
     }
     .post__heading {
         font-size: 16px !important;
         margin-bottom: 10px;
+        line-height: 15px;
     }
     .post-active__heading{
       
@@ -266,6 +276,10 @@
         width: 132px;
         height: 90px;
         margin-right: 10px;        
+    }
+    .post__body{
+        font-size: 13px !important;       
+        line-height: 15px;
     }
     
 }
