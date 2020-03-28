@@ -207,7 +207,8 @@
     background-color: transparent;
     color: $color_white;
     border-right: none;  
-    padding-left: 30px;   
+    padding-left: 30px;
+    outline: none;   
   }
 
   input[type="email"]::placeholder {   
@@ -351,8 +352,8 @@ textarea::-webkit-input-placeholder {
     height: 50px;
     width: 86px;
   }
-  
-  .subscribe-form{
+
+  .subscribe-form {
     width: 250px;
   }
   input[type=email] {
@@ -361,7 +362,7 @@ textarea::-webkit-input-placeholder {
  }  
  .subscribe-form__btn{
   font-size: 13px !important;
-  width : 100px !important;
+  width: 100px !important;
  }
 
  input[type=search] { 

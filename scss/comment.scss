@@ -79,20 +79,20 @@
 
 @media (min-width: 320px) and  (max-width: 479px) { 
     .leave-comment {
-        width: 300px;
+        width: 278px;
         margin-bottom: 100px;
         &__name-text-msg {
-            width: 260px !important;    
+            width: 235px !important;    
             padding-left: 10px !important;
             padding-top: 10px !important;
         }
-        &__name-text{
-            width: 131px !important;
+        &__name-text {
+            width: 119px !important;
             height: 40px !important;
             padding-left: 10px !important;
-             font-size: 13px !important;
+            font-size: 13px !important;
         }
-        &__name{
+        &__name {
             margin-bottom: 30px;
            
         }
@@ -100,6 +100,9 @@
     }
     input[type=text].leave-comment__name-text:nth-child(1) {
         margin-right: 10px;
+    }
+    input[type=text].leave-comment__name-text {
+        width : 100px;
     }
 
     .leave-comment h2{
