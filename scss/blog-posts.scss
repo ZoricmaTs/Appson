@@ -462,6 +462,38 @@
             width: 270px;
             height: 223px;       
         } 
+
+        &__heading {
+            font-size : 16px !important;
+        } 
+        &__text {
+            font-size : 13px !important;
+        } 
+        &__people-info{
+            width:240px;
+        }
+        &__people-info-date{
+            font-size : 13px !important;
+            margin-right: 15px;
+        }   
+        &__people-info-comment{
+            font-size : 13px !important;
+            margin-right: 15px;
+        } 
+        &__people-info-like{
+            font-size : 13px !important;
+        }
+        &__quote-image{
+            width:44px;
+            height:33px;
+        }
+        &__quote-text{
+            font-size : 13px !important;
+            padding-left: 50px;
+        }
+        &__tags-share div span{
+            font-size : 13px !important;
+        }
     }
     
 }
