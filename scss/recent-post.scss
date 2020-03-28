@@ -51,6 +51,16 @@
  .right-side-detail__recent-posts p{
     font-size : 13px !important;
  }
+
+ .right-side__recent-posts h2{
+    font-size : 16px !important;
+ }
+ .right-side__recent-posts h3{
+    font-size : 16px !important;
+ }
+ .right-side__recent-posts p{
+    font-size : 13px !important;
+ }
 }
 
 @media (min-width: 320px) and  (max-width: 479px) { 
@@ -71,5 +81,16 @@
         &__heading{
             margin-bottom: 5px;
         }
+    }
+
+        
+    .right-side__recent-posts h2{
+        font-size : 16px !important;
+    }
+    .right-side__recent-posts h3{
+        font-size : 16px !important;
+    }
+    .right-side__recent-posts p{
+        font-size : 13px !important;
     }
    }
