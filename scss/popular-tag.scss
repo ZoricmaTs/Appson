@@ -1,8 +1,6 @@
 @import "text.scss";
 
-.popular-tags {
-    width: 360px;
-    height: 242px;
+.popular-tags {  
     box-shadow: 0 0 25px #f0f0f0;
     border: 1px solid $color_light-grey;
     background-color: #ffffff;
@@ -14,13 +12,14 @@
 }
 .popular-tag {
     @extend .text__body_small;
-    height: 28px;
-    line-height: 27px;
+    //height: 28px;
+   // line-height: 40px;
     font-weight: 400;
     border-radius: 14px;
     border: 1px solid $color_light-grey;
     padding: 3px 12px 3px 12px;
     margin-right: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
     &:hover, &:focus, &:active, &:visited {
         background-color: $color_blue;
@@ -34,5 +33,64 @@
     &__block {
         margin-left: 30px;
         margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+}
+.popular-tag:last-of-type{
+    margin-right: 100px;
+}
+
+
+@media (min-width: 480px) and  (max-width: 699px) { 
+    .popular-tags h2{
+       font-size : 16px !important;
+    }
+    .popular-tags h3{
+       font-size : 16px !important;
+    }
+    .popular-tags p{
+       font-size : 13px !important;
+    }
+    .popular-tags li{
+        font-size : 13px !important;
+     }
+     .popular-tags span{
+        font-size : 13px !important;
+     }
+}
+
+
+@media (min-width: 320px) and  (max-width: 479px) { 
+    .popular-tags h2{
+       font-size : 16px !important;
+    }
+    .popular-tags h3{
+       font-size : 16px !important;
+    }
+    .popular-tags p{
+       font-size : 13px !important;
+    }
+    .popular-tags li{
+        font-size : 13px !important;
+     }
+     .popular-tags span{
+        font-size : 13px !important;
+     }
+     .popular-tag {
+        margin-right: 7px;
+        margin-bottom: 15px;
+         &__block{
+            margin-left: 8px;
+            margin-bottom: 7px;   
+            justify-content: flex-start;
+        }
+    }
+    .popular-tag:last-of-type {
+        margin-right: 10px;
+    }  
+
+
 }

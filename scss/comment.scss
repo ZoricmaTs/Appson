@@ -13,8 +13,8 @@
 
     }
     &__name-text-msg {
-        width: 688px;
-        height: 108px;
+        width: 690px;
+        height: 108px ;
         resize: none;
         border-radius: 5px;
         border: 1px solid $color_light-grey;
@@ -25,7 +25,85 @@
         margin-bottom: 30px;
     }
     &__btn {
-        margin-left: 585px;
+        float:right;
     }
 }
 
+@media (min-width: 1000px) and  (max-width: 1399px) { 
+    .leave-comment {
+        width: 551px;
+        &__name-text-msg {
+            width: 490px;         
+        }
+        &__name-text{
+            width: 226px !important;
+        }
+    }
+}
+
+@media (min-width: 700px) and  (max-width: 999px) { 
+    .leave-comment {
+        width: 551px;
+        margin-bottom: 100px;
+        &__name-text-msg {
+            width: 490px;         
+        }
+        &__name-text{
+            width: 226px !important;
+        }
+    }
+}
+
+@media (min-width: 480px) and  (max-width: 699px) { 
+    .leave-comment {
+        width: 440px;
+        margin-bottom: 100px;
+        &__name-text-msg {
+            width: 380px;         
+        }
+        &__name-text{
+            width: 171px !important;
+            height: 40px !important;
+            font-size: 13px !important;
+        }
+        &__name{
+            margin-bottom: 30px;
+        }
+    }
+
+    .leave-comment h2{
+      font-size: 16px !important;
+    }
+}
+
+
+@media (min-width: 320px) and  (max-width: 479px) { 
+    .leave-comment {
+        width: 300px;
+        margin-bottom: 100px;
+        &__name-text-msg {
+            width: 260px !important;    
+            padding-left: 10px !important;
+            padding-top: 10px !important;
+        }
+        &__name-text{
+            width: 131px !important;
+            height: 40px !important;
+            padding-left: 10px !important;
+             font-size: 13px !important;
+        }
+        &__name{
+            margin-bottom: 30px;
+           
+        }
+       
+    }
+    input[type=text].leave-comment__name-text:nth-child(1) {
+        margin-right: 10px;
+    }
+
+    .leave-comment h2{
+      font-size: 16px !important;
+    }
+   
+}

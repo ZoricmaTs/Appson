@@ -361,5 +361,14 @@ textarea::-webkit-input-placeholder {
   font-size: 13px !important;
   width : 100px !important;
  }
+
+ input[type=search] { 
+  height: 64px;
+  width: 195px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-left: 15px;
+}
 }
 

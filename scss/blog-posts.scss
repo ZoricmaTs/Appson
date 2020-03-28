@@ -7,9 +7,7 @@
 
 .blog-post {
     display: flex;
-    flex-direction: row;
-    width: 750px;
-    height: 298px;
+    flex-direction: row;  
     margin-bottom: 50px;
     margin-right: 30px;
     box-shadow: 0 0 76px #e9e9e9;
@@ -66,7 +64,7 @@
     &__heading {
         margin-top: 30px;
         margin-bottom: 25px;
-        height: 18px;
+     //   height: 18px;
         &:hover, &:focus, &:active {
             color: $color_blue;
             transition: all ease 0.3s;
@@ -78,8 +76,7 @@
     }
     &__text {
         font-weight: 400;
-        line-height: 27px;
-        width: 300px;
+        line-height: 27px;     
         margin-bottom: 30px;
     }
 }
@@ -141,14 +138,10 @@
     }
     &__text {
         font-weight: 400;
-        line-height: 27px;
-        width: 748px;
-        height: 205px;
+        line-height: 27px;     
     }
     &__text:nth-last-of-type(1) {
-        font-weight: 400;
-        width: 750px;
-        height: 124px;
+        font-weight: 400;  
         line-height: 27px;
         padding-bottom: 45px;
         border-bottom: 1px solid $color_light-grey;
@@ -160,23 +153,22 @@
     &__quote-image {
         margin-top: 37px;
     }
-    &__quote-text {
-        width: 516px;
-        height: 70px;
+    &__quote-text {    
         font-size: 16px;
         font-weight: 400;
         line-height: 27px;
         padding-left: 98px;
+        width: 74%;
     }
     &__tags-share {
         margin-bottom: 50px;
-        /*display: flex;
+        display: flex;
         flex-direction: row;
-        justify-content: space-between;*/
+        justify-content: space-between;
     }
     &__tags-share-text {
         width: 39px;
-        height: 15px;
+      //  height: 15px;
         @extend .text__color_dark-grey;
         @extend .text__body;
         font-weight: 500;
@@ -195,8 +187,8 @@
         padding: 3px 15px 3px 15px;
     }
     &__tags {
-        display: inline-block;
-        margin-right: 449px;
+      //  display: inline-block;
+     //   margin-right: 449px;
     }
     &__media-share {
         display: inline-block;
@@ -209,7 +201,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        height: 100px;
+        padding-bottom: 50px;
         margin-bottom: 50px;
         border-bottom: 1px solid $color_light-grey;
     }
@@ -312,4 +304,103 @@
     -moz-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
+}
+
+@media (min-width: 1000px) and  (max-width: 1399px) { 
+    .blog-post-detail {
+        width: 560px;
+        &__image {
+            margin-bottom: 50px;
+            width: 540px;
+            height: 300px;
+            
+        }       
+    }
+}
+
+@media (min-width: 700px) and  (max-width: 999px) { 
+    .blog-post-detail {
+        width: 100%;
+        &__image {
+            margin-bottom: 50px;
+            width: 540px;
+            height: 300px;
+            
+        }       
+    }
+}
+@media (min-width: 480px) and  (max-width: 699px) { 
+    .blog-post-detail {
+       width: 100%;
+        &__image {
+            margin-bottom: 30px;
+            width: 425px;
+            height: 204px;            
+        } 
+        &__heading {
+            font-size : 16px !important;
+        } 
+        &__text {
+            font-size : 13px !important;
+        } 
+        &__people-info-date{
+            font-size : 13px !important;
+        }   
+        &__people-info-comment{
+            font-size : 13px !important;
+        } 
+        &__people-info-like{
+            font-size : 13px !important;
+        }
+        &__quote-text{
+            font-size : 13px !important;
+        }
+        &__tags-share div span{
+            font-size : 13px !important;
+        }
+    }
+    
+}
+
+@media (min-width: 320px) and  (max-width: 479px) { 
+    .blog-post-detail {
+       width: 100%;
+        &__image {
+            margin-bottom: 30px;
+            width: 300px;
+            height: 204px;         
+        } 
+        &__heading {
+            font-size : 16px !important;
+        } 
+        &__text {
+            font-size : 13px !important;
+        } 
+        &__people-info{
+            width:240px;
+        }
+        &__people-info-date{
+            font-size : 13px !important;
+            margin-right: 15px;
+        }   
+        &__people-info-comment{
+            font-size : 13px !important;
+            margin-right: 15px;
+        } 
+        &__people-info-like{
+            font-size : 13px !important;
+        }
+        &__quote-image{
+            width:44px;
+            height:33px;
+        }
+        &__quote-text{
+            font-size : 13px !important;
+            padding-left: 50px;
+        }
+        &__tags-share div span{
+            font-size : 13px !important;
+        }
+    }
+    
 }
