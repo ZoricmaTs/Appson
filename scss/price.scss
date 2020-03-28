@@ -134,6 +134,9 @@
     .subscription {
         width: 250px;
     }
+    .subscription:last-child{
+        margin-right: 0;
+    }
     .btn-double__left{
         width:120px !important;
     }
@@ -169,6 +172,9 @@
     }
     .subscription {
         width: 174px;
+    }
+    .subscription:last-child{
+        margin-right: 0;
     }
     .btn-double__left{
         width:120px !important;
@@ -213,10 +219,11 @@
         margin-bottom: 40px;
     }
     .subscriptions{
-flex-direction: column;
+        flex-direction: column;
     }
     .subscription {
         width: 230px;
+        margin-right: 0;
     }
     .subscription:nth-child(2){
         margin-right: 0;
