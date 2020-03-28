@@ -19,3 +19,51 @@
         font-weight: 400;
     }
 }
+
+@media (min-width: 700px) and  (max-width: 999px) { 
+    .free-trail-title {
+        margin-right: 30px;
+    }
+}
+
+
+@media (min-width: 480px) and  (max-width: 699px) { 
+    .free-trail-title {
+        text-align: center;
+        margin-right: 0;
+        &__heading {
+            font-size: 28px !important;
+        } 
+        &__body {
+            font-size: 13px !important;
+        }
+        margin-bottom: 20px;
+    }
+    .free-trail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 320px) and  (max-width: 479px) { 
+    .free-trail-title {
+        text-align: center;
+        margin-right: 0;
+        &__heading {
+            font-size: 28px !important;
+        } 
+        &__body {
+            font-size: 13px !important;
+        }
+        margin-bottom: 20px;
+    }
+    .free-trail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

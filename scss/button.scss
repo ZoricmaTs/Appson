@@ -154,7 +154,7 @@
 }
 
 .subscribe-form {
-  cursor: pointer;
+    cursor: pointer;
     width: 556px;
     height: 60px;
     margin: 0 auto;
@@ -331,17 +331,35 @@ textarea::-webkit-input-placeholder {
 
 @media (min-width: 480px) and  (max-width: 699px) {
   .subscribe-form{
-    width:480px;
+    width: 400px;
   }
-  input[type=email]{
-   width:100px;
+  input[type=email] {
+   width: 200px;
  }
+ .subscribe-form__btn{
+  font-size: 13px !important; 
+ }
+ input[type=email] {
+  font-size: 13px !important;
+ }  
 }
   
 
 @media (min-width: 320px) and  (max-width: 479px) {
-input[type="text"] {
+  input[type="text"] {
   height: 50px;
-  width: 250px;
-  }  
+  width: 86px;
+  }
+  .subscribe-form{
+    width: 250px;
+  }
+  input[type=email] {
+  width: 117px;
+  font-size: 13px !important;
+ }  
+ .subscribe-form__btn{
+  font-size: 13px !important;
+  width : 100px !important;
+ }
 }
+
