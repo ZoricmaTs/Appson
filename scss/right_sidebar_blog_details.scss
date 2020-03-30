@@ -60,8 +60,9 @@
         padding-bottom: 40px;      
     }
     .left-side-detail {
-        width: 278px;
-        margin-right: 0;   
+        width: 258px;
+        margin-right: 0; 
+        height:1968px;  
     }   
     .right-side-detail {
         width: 280px;
@@ -70,4 +71,8 @@
     .right-side-detail__recent-posts {
         margin-bottom: 30px;
       }
+
+      .right-side-detail__search-input {
+        margin-bottom: 0px;
+    }
 }

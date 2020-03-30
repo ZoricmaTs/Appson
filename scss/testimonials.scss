@@ -134,7 +134,6 @@
         max-height: 171px;
         margin-right: 10px;
         padding: 20px 15px;
-        
     }
    
     .testimonials__heading {
@@ -177,7 +176,7 @@
         height: 306px;
     }
     .testimonials-block{
-        height: 617px;
+        height: 639px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -212,6 +211,9 @@
     .review__content{
         font-size: 13px !important;
     }
+    .reviews__pagination{
+        margin-top: 13px;
+    }
 }
 
 
@@ -234,7 +236,7 @@
     height: 266px;
     }
     .testimonials-block{
-        height: 617px;
+        height: 607px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -268,5 +270,8 @@
    
     .review__content{
         font-size: 13px !important;
+    }
+    .reviews__pagination{
+        margin-top: 13px;
     }
 }

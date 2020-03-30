@@ -100,6 +100,10 @@ body {
         max-width: 469px;     
         margin-top: 70px;
     }
+    .homepage-btn{     
+        font-size: 13px !important;
+        height:40px !important;
+    }
 }
 
 @media (min-width: 320px) and  (max-width: 479px) { 
@@ -132,6 +136,8 @@ body {
     .homepage-btn{
         margin-right: 0;      
         margin-bottom: 10px;
+        font-size: 13px !important;
+        height:40px !important;
     }
 }
 

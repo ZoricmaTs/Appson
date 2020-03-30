@@ -336,13 +336,31 @@ textarea::-webkit-input-placeholder {
   }
   input[type=email] {
    width: 200px;
+   height: 40px;
  }
  .subscribe-form__btn{
   font-size: 13px !important; 
+  height: 44px !important;
  }
  input[type=email] {
   font-size: 13px !important;
  }  
+ input[type=search] { 
+  height: 40px;
+  
+  font-size: 13px;  
+  line-height: 27px;
+  padding-left: 15px;
+ }
+
+  .search-form .btn-input__search{
+    height: 40px;
+  }
+  .search__image{
+    width: 20px;
+      height: 20px;
+
+  }
 }
   
 
@@ -359,22 +377,31 @@ textarea::-webkit-input-placeholder {
   input[type=email] {
   width: 117px;
   font-size: 13px !important;
+  height: 40px;
  }  
  .subscribe-form__btn{
   font-size: 13px !important;
   width: 100px !important;
+  height: 44px !important;
  }
 
  input[type=search] { 
-  height: 64px;
+  height: 40px;
   width: 195px;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 13px;  
   line-height: 27px;
   padding-left: 15px;
 }
 .search-form {  
   width: 298px;
+}
+.search-form .btn-input__search{
+  height: 40px;
+}
+.search__image{
+  width: 20px;
+    height: 20px;
+
 }
 }
 

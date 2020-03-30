@@ -69,6 +69,10 @@
         &__name{
             margin-bottom: 30px;
         }
+        &__btn{
+            font-size: 13px !important;
+            height: 40px !important;
+        }
     }
 
     .leave-comment h2{
@@ -79,22 +83,29 @@
 
 @media (min-width: 320px) and  (max-width: 479px) { 
     .leave-comment {
-        width: 278px;
+        width: 258px;
         margin-bottom: 100px;
         &__name-text-msg {
-            width: 235px !important;    
+            width: 215px !important;    
             padding-left: 10px !important;
             padding-top: 10px !important;
+            margin-bottom: 15px;
         }
         &__name-text {
-            width: 119px !important;
+            width: 245px !important;
             height: 40px !important;
+            margin-bottom: 10px;
             padding-left: 10px !important;
             font-size: 13px !important;
         }
         &__name {
-            margin-bottom: 30px;
-           
+            margin-bottom: 0px;
+           display: flex;
+           flex-direction: column;
+        }
+        &__btn{
+            font-size: 13px !important;
+            height: 40px !important;
         }
        
     }

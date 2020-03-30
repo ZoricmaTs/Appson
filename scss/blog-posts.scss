@@ -362,8 +362,8 @@
        width: 100%;
 
         &__image {
-            width: 425px;
-            height: 204px;            
+            width: 440px;
+            height: 209px;            
         } 
         &__heading {
             font-size : 16px !important;
@@ -418,6 +418,21 @@
     .blog-post  span{
         font-size : 13px !important;
     }
+    .blog-post-detail__text:nth-last-of-type(1){
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-post-detail__buttons{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-post-detail__tags-share {
+        margin-bottom: 30px;
+    }
+    .blog-post-detail__button {
+        font-size: 13px !important;
+        height: 40px !important;
+    }
     
 }
 
@@ -425,8 +440,8 @@
     .blog-post-detail {
        width: 100%;
         &__image {
-            margin-bottom: 30px;
-            width: 278px;
+            margin-bottom: 13px;
+            width: 258px;
             height: 204px;         
         } 
         &__heading {
@@ -436,6 +451,8 @@
         } 
         &__text {
             font-size : 13px !important;
+          //  margin-bottom: 30px;
+         //   padding-bottom: 30px;
         } 
         &__people-info{
             width:240px;
@@ -452,9 +469,14 @@
         &__people-info-like{
             font-size : 13px !important;
         }
+        &__quote{
+            margin-bottom: 17px;
+        }
         &__quote-image{
             width:44px;
             height:33px;
+            padding-top:10px;
+            margin-top: 0px;
         }
         &__quote-text{
             font-size : 13px !important;
@@ -463,8 +485,22 @@
         &__tags-share div span{
             font-size : 13px !important;
         }
+        &__button {
+            font-size: 13px !important;
+            height:40px !important;
+        }
     }
-
+    .blog-post-detail__text:nth-last-of-type(1){
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-post-detail__buttons{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-post-detail__tags-share {
+        margin-bottom: 30px;
+    }
     .blog-post{
         flex-direction: column;
         margin-right: 0;

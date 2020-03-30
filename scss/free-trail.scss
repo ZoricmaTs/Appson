@@ -6,7 +6,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 336px;
+   // height: 336px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     background-color: $color_light-blue;
 }
 
@@ -44,6 +46,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        &__btn{
+            height: 40px !important;
+            font-size: 13px !important;
+            width: 165px !important;
+        }
+        &__arrow{
+            padding-left:10px;
+            width: 13px;
+            height: 11px;
+        }
     }
 }
 
@@ -65,5 +79,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        &__btn{
+            height: 40px !important;
+            font-size: 13px !important;
+            width: 165px !important;
+        }
+        &__arrow{
+            padding-left:10px;
+            width: 13px;
+            height: 11px;
+        }
     }
 }

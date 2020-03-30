@@ -164,7 +164,10 @@
         &__menu-front_blue {
             margin-right: 23px;
             margin-left: 50px;    
-        }        
+        }      
+        &__text-front_light-blue  {
+            padding-left:10px;
+        }
     } 
 }
 
@@ -256,6 +259,9 @@
      .footer__menu-link-front_blue, .footer__menu-link-front_light-blue, .footer__text-front_light-blue, .footer__text-front_blue{
         font-size: 13px !important;
     }
+    .footer__text-front_light-blue {
+        padding-left: 10px;
+    }
 
 }
 
@@ -309,6 +315,9 @@
     }
      .footer__menu-link-front_blue, .footer__menu-link-front_light-blue, .footer__text-front_light-blue, .footer__text-front_blue{
         font-size: 13px !important;
+    }
+    .footer__text-front_light-blue {
+        padding-left: 10px;
     }
 
 }
