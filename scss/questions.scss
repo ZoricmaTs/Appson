@@ -4,7 +4,7 @@
 /* Style for "How to upl" */
 .question {
     &__heading {
-        height: 23px;
+      //  height: 23px;
         font-weight: 500;
         line-height: 30px;
         margin-bottom: 34px;
@@ -75,7 +75,7 @@
     .question {
         &__text {
             font-size: 13px !important;
-            margin-bottom: 32px;
+            margin-bottom: 20px;
         }
         
         &__heading{
